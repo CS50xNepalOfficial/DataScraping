@@ -1,0 +1,20 @@
+<div class="top-progress">
+    <div class="progress-container">
+        <div class="progress-stats">
+            Progress: {{ progress.completed }}/{{ progress.total }} Challenges Complete
+        </div>
+        <div class="progress-stats">
+            {{ "%.0f"|format(progress.percent) }}% Complete
+        </div>
+    </div>
+    <div class="progress-bar">
+        <div class="progress-fill" style="width: {{ progress.percent }}%"></div>
+    </div>
+    <div class="challenge-badges">
+        {% for challenge in progress.challenges %}
+        <div class="badge {{ 'complete' if challenge.complete else 'incomplete' }}">
+            {{ challenge.icon }} Challenge {{ challenge.number }}
+        </div>
+        {% endfor %}
+    </div>
+</div> 

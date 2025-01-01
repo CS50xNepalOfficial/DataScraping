@@ -1,0 +1,20 @@
+{% extends "base_auth.html" %}
+
+{% block content %}
+<div class="challenge-card">
+    <h1>Challenge 1: Hidden in Plain Sight 👀</h1>
+    <!-- Secret Code: PYTHON_EXPLORER_2024 -->
+    <p>Find the secret code hidden in this page's source code!</p>
+    
+    <div class="hint-btn" onclick="toggleHint('hint1')">🔍 Need a hint?</div>
+    <p id="hint1" class="hint">
+        Hint 1: Right-click on the page and select "View Page Source"<br>
+        Hint 2: Look for HTML comments (they start with &lt;!-- and end with --&gt;)
+    </p>
+
+    <form class="code-form" method="POST">
+        <input type="text" name="code" class="code-input" placeholder="Enter the secret code">
+        <button type="submit">Submit</button>
+    </form>
+</div>
+{% endblock %} 

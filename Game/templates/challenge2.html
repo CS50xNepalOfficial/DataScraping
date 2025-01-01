@@ -1,0 +1,20 @@
+{% extends "base_auth.html" %}
+
+{% block content %}
+<div class="challenge-card">
+    <h1>Challenge 2: Headers and Metadata 🔍</h1>
+    <p>The secret code is hidden in the response headers!</p>
+    
+    <div class="hint-btn" onclick="toggleHint('hint2')">🔍 Need a hint?</div>
+    <p id="hint2" class="hint">
+        Hint 1: Open Developer Tools (F12 or right-click -> Inspect)<br>
+        Hint 2: Go to the Network tab and refresh the page<br>
+        Hint 3: Look for a header starting with 'X-Secret'
+    </p>
+
+    <form class="code-form" method="POST">
+        <input type="text" name="code" class="code-input" placeholder="Enter the secret code">
+        <button type="submit">Submit</button>
+    </form>
+</div>
+{% endblock %} 

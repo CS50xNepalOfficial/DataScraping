@@ -1,0 +1,13 @@
+{% extends "base_auth.html" %}
+
+{% block content %}
+<div class="challenge-card">
+    <div class="success-message">
+        <h2>✅ Challenge {{ challenge_num }} Complete!</h2>
+        <p>Moving to next challenge...</p>
+    </div>
+</div>
+<script>
+    setTimeout(() => window.location.href = '{{ next_challenge }}', 2000);
+</script>
+{% endblock %}

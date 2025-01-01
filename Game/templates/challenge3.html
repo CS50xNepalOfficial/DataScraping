@@ -1,0 +1,21 @@
+{% extends "base_auth.html" %}
+
+{% block content %}
+<div class="challenge-card">
+    <h1>Challenge 3: Encoding Secrets 🔐</h1>
+    <p>This secret code is encoded in base64. Decode it to proceed!</p>
+    <div class="secret" data-encoded="{{ secret_message }}"></div>
+    
+    <div class="hint-btn" onclick="toggleHint('hint3')">🔍 Need a hint?</div>
+    <p id="hint3" class="hint">
+        Hint 1: Find the encoded data in the div's 'data-encoded' attribute<br>
+        Hint 2: Use an online base64 decoder<br>
+        Hint 3: The encoded value is: {{ secret_message }}
+    </p>
+
+    <form class="code-form" method="POST">
+        <input type="text" name="code" class="code-input" placeholder="Enter the decoded secret">
+        <button type="submit">Submit</button>
+    </form>
+</div>
+{% endblock %} 
