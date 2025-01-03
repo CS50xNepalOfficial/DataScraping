@@ -1,0 +1,2635 @@
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-body">
+        <div class="rd-wrap filter">
+            <div class="layout-2">
+                <h3 class="title">Filters <span><a href="javascript:void(0);" class="clear-all">clear all</a></span></h3>
+            </div>
+            <ul class="selected-clear">
+            </ul>
+            <hr>
+            <div class="label">Price</div>
+            <div class="row">
+                                <div style="font-size: 0.9rem;">
+                    <div class="float-start min_price">Rs.0</div>
+                    <div class="float-end max_price">Rs.226999</div>
+                </div>
+                <div class="pt-2">
+                    <div id="slider-range" class="price-filter-range price-slider-range" style="width: 100%" name="rangeInput"></div>
+                </div>
+
+                <div style="margin:30px auto; display:none">
+                    <input type="number" min=0 max="226989" data-min-price="0" data-default-min-price="0" oninput="validity.valid||(value='0');" id="min_price" class="price-range-field" />
+                    <input type="number" min=0 max="226999" data-max-price="226999" data-default-max-price="226999" oninput="validity.valid||(value='226999');" id="max_price" class="price-range-field" />
+                </div>
+
+                <button class="price-range-search" id="price-range-submit" style="display:none;">Search</button>
+
+                <!-- <div id="searchResults" class="search-results-block"></div> -->
+            </div>
+            <hr/>
+                                                <div class="label">Variant</div>
+            <div class="swatches" data-attribute="Variant" data-id="147" data-variable="1" data-option-index="1">
+                                <div class="d-flex align-items-center justify-content-between">
+                    <div class="swatch" data-option-index="1">
+                                                                <div data-value="6/128 GB" class="swatch-element plain available">
+                                                            <input class="prod_attr_var" data-id="81" data-variable="1" id="attribute_6/128_g_b_147" type="radio" name="attribute_variant" value="6/128 GB"  />
+                                                        <label for="attribute_6/128_g_b_147">6/128 GB</label>
+                        </div>
+                                            <div data-value="6/256 GB" class="swatch-element plain available">
+                                                            <input class="prod_attr_var" data-id="82" data-variable="1" id="attribute_6/256_g_b_147" type="radio" name="attribute_variant" value="6/256 GB"  />
+                                                        <label for="attribute_6/256_g_b_147">6/256 GB</label>
+                        </div>
+                                            <div data-value="8/256 GB" class="swatch-element plain available">
+                                                            <input class="prod_attr_var" data-id="83" data-variable="1" id="attribute_8/256_g_b_147" type="radio" name="attribute_variant" value="8/256 GB"  />
+                                                        <label for="attribute_8/256_g_b_147">8/256 GB</label>
+                        </div>
+                                            <div data-value="8/128 GB" class="swatch-element plain available">
+                                                            <input class="prod_attr_var" data-id="95" data-variable="1" id="attribute_8/128_g_b_147" type="radio" name="attribute_variant" value="8/128 GB"  />
+                                                        <label for="attribute_8/128_g_b_147">8/128 GB</label>
+                        </div>
+                                                            </div>
+                </div>
+                            </div>
+            <hr />
+                        <div class="label">Color</div>
+            <div class="swatches" data-attribute="Color" data-id="8" data-variable="1" data-option-index="2">
+                                <div class="swatch" data-option-index="2">
+                                                            <div data-value="Red" class="swatch-element color available">
+                        <div class="tooltip">Red</div>
+                                                    <input quickbeam="color" class="prod_attr_var" data-id="22" data-variable="1" id="attribute_red_8" type="radio" name="attribute_color" value="Red"  />
+                                                <label for="attribute_red_8" style="border-color: blue;">
+                            <span style="background-color: blue;"></span>
+                        </label>
+                    </div>
+                                        <div data-value="Blue" class="swatch-element color available">
+                        <div class="tooltip">Blue</div>
+                                                    <input quickbeam="color" class="prod_attr_var" data-id="23" data-variable="1" id="attribute_blue_8" type="radio" name="attribute_color" value="Blue"  />
+                                                <label for="attribute_blue_8" style="border-color: blue;">
+                            <span style="background-color: blue;"></span>
+                        </label>
+                    </div>
+                                        <div data-value="Green" class="swatch-element color available">
+                        <div class="tooltip">Green</div>
+                                                    <input quickbeam="color" class="prod_attr_var" data-id="24" data-variable="1" id="attribute_green_8" type="radio" name="attribute_color" value="Green"  />
+                                                <label for="attribute_green_8" style="border-color: blue;">
+                            <span style="background-color: blue;"></span>
+                        </label>
+                    </div>
+                                        <div data-value="Silver" class="swatch-element color available">
+                        <div class="tooltip">Silver</div>
+                                                    <input quickbeam="color" class="prod_attr_var" data-id="26" data-variable="1" id="attribute_silver_8" type="radio" name="attribute_color" value="Silver"  />
+                                                <label for="attribute_silver_8" style="border-color: blue;">
+                            <span style="background-color: blue;"></span>
+                        </label>
+                    </div>
+                                        <div data-value="Black" class="swatch-element color available">
+                        <div class="tooltip">Black</div>
+                                                    <input quickbeam="color" class="prod_attr_var" data-id="27" data-variable="1" id="attribute_black_8" type="radio" name="attribute_color" value="Black"  />
+                                                <label for="attribute_black_8" style="border-color: blue;">
+                            <span style="background-color: blue;"></span>
+                        </label>
+                    </div>
+                                        <div data-value="White" class="swatch-element color available">
+                        <div class="tooltip">White</div>
+                                                    <input quickbeam="color" class="prod_attr_var" data-id="28" data-variable="1" id="attribute_white_8" type="radio" name="attribute_color" value="White"  />
+                                                <label for="attribute_white_8" style="border-color: blue;">
+                            <span style="background-color: blue;"></span>
+                        </label>
+                    </div>
+                                        <div data-value="Yellow" class="swatch-element color available">
+                        <div class="tooltip">Yellow</div>
+                                                    <input quickbeam="color" class="prod_attr_var" data-id="96" data-variable="1" id="attribute_yellow_8" type="radio" name="attribute_color" value="Yellow"  />
+                                                <label for="attribute_yellow_8" style="border-color: blue;">
+                            <span style="background-color: blue;"></span>
+                        </label>
+                    </div>
+                                        <div data-value="Pink" class="swatch-element color available">
+                        <div class="tooltip">Pink</div>
+                                                    <input quickbeam="color" class="prod_attr_var" data-id="97" data-variable="1" id="attribute_pink_8" type="radio" name="attribute_color" value="Pink"  />
+                                                <label for="attribute_pink_8" style="border-color: blue;">
+                            <span style="background-color: blue;"></span>
+                        </label>
+                    </div>
+                                        <div data-value="Natural" class="swatch-element color available">
+                        <div class="tooltip">Natural</div>
+                                                    <input quickbeam="color" class="prod_attr_var" data-id="102" data-variable="1" id="attribute_natural_8" type="radio" name="attribute_color" value="Natural"  />
+                                                <label for="attribute_natural_8" style="border-color: blue;">
+                            <span style="background-color: blue;"></span>
+                        </label>
+                    </div>
+                                                        </div>
+                            </div>
+            <hr />
+                        <div class="label">Color</div>
+            <div class="swatches" data-attribute="Color" data-id="8" data-variable="1" data-option-index="3">
+                                <div class="swatch" data-option-index="3">
+                                                            <div data-value="Red" class="swatch-element color available">
+                        <div class="tooltip">Red</div>
+                                                    <input quickbeam="color" class="prod_attr_var" data-id="22" data-variable="1" id="attribute_red_8" type="radio" name="attribute_color" value="Red"  />
+                                                <label for="attribute_red_8" style="border-color: blue;">
+                            <span style="background-color: blue;"></span>
+                        </label>
+                    </div>
+                                        <div data-value="Blue" class="swatch-element color available">
+                        <div class="tooltip">Blue</div>
+                                                    <input quickbeam="color" class="prod_attr_var" data-id="23" data-variable="1" id="attribute_blue_8" type="radio" name="attribute_color" value="Blue"  />
+                                                <label for="attribute_blue_8" style="border-color: blue;">
+                            <span style="background-color: blue;"></span>
+                        </label>
+                    </div>
+                                        <div data-value="Green" class="swatch-element color available">
+                        <div class="tooltip">Green</div>
+                                                    <input quickbeam="color" class="prod_attr_var" data-id="24" data-variable="1" id="attribute_green_8" type="radio" name="attribute_color" value="Green"  />
+                                                <label for="attribute_green_8" style="border-color: blue;">
+                            <span style="background-color: blue;"></span>
+                        </label>
+                    </div>
+                                        <div data-value="Silver" class="swatch-element color available">
+                        <div class="tooltip">Silver</div>
+                                                    <input quickbeam="color" class="prod_attr_var" data-id="26" data-variable="1" id="attribute_silver_8" type="radio" name="attribute_color" value="Silver"  />
+                                                <label for="attribute_silver_8" style="border-color: blue;">
+                            <span style="background-color: blue;"></span>
+                        </label>
+                    </div>
+                                        <div data-value="Black" class="swatch-element color available">
+                        <div class="tooltip">Black</div>
+                                                    <input quickbeam="color" class="prod_attr_var" data-id="27" data-variable="1" id="attribute_black_8" type="radio" name="attribute_color" value="Black"  />
+                                                <label for="attribute_black_8" style="border-color: blue;">
+                            <span style="background-color: blue;"></span>
+                        </label>
+                    </div>
+                                        <div data-value="White" class="swatch-element color available">
+                        <div class="tooltip">White</div>
+                                                    <input quickbeam="color" class="prod_attr_var" data-id="28" data-variable="1" id="attribute_white_8" type="radio" name="attribute_color" value="White"  />
+                                                <label for="attribute_white_8" style="border-color: blue;">
+                            <span style="background-color: blue;"></span>
+                        </label>
+                    </div>
+                                        <div data-value="Yellow" class="swatch-element color available">
+                        <div class="tooltip">Yellow</div>
+                                                    <input quickbeam="color" class="prod_attr_var" data-id="96" data-variable="1" id="attribute_yellow_8" type="radio" name="attribute_color" value="Yellow"  />
+                                                <label for="attribute_yellow_8" style="border-color: blue;">
+                            <span style="background-color: blue;"></span>
+                        </label>
+                    </div>
+                                        <div data-value="Pink" class="swatch-element color available">
+                        <div class="tooltip">Pink</div>
+                                                    <input quickbeam="color" class="prod_attr_var" data-id="97" data-variable="1" id="attribute_pink_8" type="radio" name="attribute_color" value="Pink"  />
+                                                <label for="attribute_pink_8" style="border-color: blue;">
+                            <span style="background-color: blue;"></span>
+                        </label>
+                    </div>
+                                        <div data-value="Natural" class="swatch-element color available">
+                        <div class="tooltip">Natural</div>
+                                                    <input quickbeam="color" class="prod_attr_var" data-id="102" data-variable="1" id="attribute_natural_8" type="radio" name="attribute_color" value="Natural"  />
+                                                <label for="attribute_natural_8" style="border-color: blue;">
+                            <span style="background-color: blue;"></span>
+                        </label>
+                    </div>
+                                                        </div>
+                            </div>
+            <hr />
+                                    <div class="label">Brand</div>
+            <div class="brand-area">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control form-control-sm select2" id='search-brand' placeholder="Search Brand..">
+                    <button class="btn btn-theme" type="button"><i class="fas fa-search"></i></button>
+                </div>
+                <div class="list-group" id="brand-list-group">
+                                                        </div>
+            </div>
+        </div>
+  </div>
+</div>
+
+
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Buy mobile phones online in Nepal and get best deals and offers. Shop brands like Samsung, Apple, Xiaomi, Poco, Honor etc. Review, compare and negotiate while buying your mobile phone online at Enroz Online." />
+<meta name="keywords" content="Buy mobile phones online in Nepal, Samsung mobile in Nepal, MI phone in Nepal, Iphone in Nepal" />
+<link href="/images/favicon-enroz.png" rel="icon">
+<title>Buy Mobile Phones Online in Nepal</title>
+<meta name="csrf-token" content="HDkhlMZGj32cVVNOfAJWEAzpW4NFxUOq9OnYXerZ">
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+<link rel="canonical" href="https://www.enroz.com" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Buy Mobile Phones Online in Nepal" />
+<meta property="og:description" content="Buy mobile phones online in Nepal and get best deals and offers. Shop brands like Samsung, Apple, Xiaomi, Poco, Honor etc. Review, compare and negotiate while buying your mobile phone online at Enroz Online." />
+<meta property="og:url" content="https://www.enroz.com/product-category/smart-phones" />
+<meta property="og:site_name" content="Enroz Online Shop" />
+<meta property="og:image" content="https://www.enroz.com/storage/category/booking_1697167349.png" />
+<meta property="og:image:secure_url" content="https://www.enroz.com/storage/category/booking_1697167349.png" />
+<meta property="og:image:width" content="444" />
+<meta property="og:image:height" content="444" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="Buy mobile phones online in Nepal and get best deals and offers. Shop brands like Samsung, Apple, Xiaomi, Poco, Honor etc. Review, compare and negotiate while buying your mobile phone online at Enroz Online." />
+<meta name="twitter:title" content="Buy Mobile Phones Online in Nepal" />
+<meta name="twitter:image" content="https://www.enroz.com/storage/category/booking_1697167349.png" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.enroz.com/#organization","name":"Enroz","url":"https://www.enroz.com/","sameAs":[],"logo":{"@type":"ImageObject","@id":"https://www.enroz.com/#logo","url":"https://www.enroz.com/storage/enroz-logo_1659236282.png","width":191,"height":42,"caption":"Enroz"},"image":{"@id":"https://www.enroz.com/#logo"}},{"@type":"WebSite","@id":"https://www.enroz.com/#website","url":"https://www.enroz.com/","name":"Enroz Online Shop","description":"Online Shopping in Nepal","publisher":{"@id":"https://www.enroz.com/#organization"},"potentialAction":{"@type":"SearchAction","target":"https://www.enroz.com/?s={product_keyword}","query-input":"required name=product_keyword"}},{"@type":"ImageObject","@id":"https://www.enroz.com/#primaryimage","url":"https://www.enroz.com/storage/enroz-logo_1659236282.png","width":444,"height":444,"caption":"Enroz online shop | Best online shopping in Nepal"},{"@type":"WebPage","@id":"https://www.enroz.com/#webpage","url":"https://www.enroz.com/","inLanguage":"en-US","name":"Online Shopping in Nepal | Buy & Sell Online Store in Kathmandu | Enroz","isPartOf":{"@id":"https://www.enroz.com/#website"},"about":{"@id":"https://www.enroz.com/#organization"},"primaryImageOfPage":{"@id":"https://www.enroz.com/#primaryimage"},"datePublished":"2017-10-14T06:38:21+00:00","dateModified":"2021-01-06T17:15:41+00:00","description":"Online Shopping in Nepal With Enroz Store offers fitness, home & living, electronics, digital products at best price. Buy & Sell Online Store in Kathmandu"}]}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link href='https://cdn.shortpixel.ai' rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="Enroz Online Shop & Feed" href="https://www.enroz.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Enroz Online Shop & Comments Feed" href="https://www.enroz.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Enroz Online Shop & Online Shopping in Nepal Comments Feed" href="https://www.enroz.com/home-01-2/feed/" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+<link href="/vendor/core/css/owl.carousel.min.css" rel="stylesheet">
+<link href="/vendor/core/css/owl.theme.default.min.css" rel="stylesheet">
+<link href="https://unpkg.com/xzoom/dist/xzoom.css" rel="stylesheet">
+<link href="/vendor/core/css/enroz.min.css" rel="stylesheet">
+<!-- jQuery library -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="/vendor/core/js/owl.carousel.min.js"></script>
+<script src="https://unpkg.com/xzoom/dist/xzoom.min.js"></script>
+<script src="/vendor/core/js/techie.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-99842531-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-99842531-1');
+</script>
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="/js/html5shiv.js"></script>
+      <script src="/js/respond.min.js"></script>
+    <!<[endif]-->
+  <script>
+      window.Laravel = {"min_cart_value":10,"total_cart_value":0};
+  </script>
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css" type="text/css" media="all" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript"></script>
+    <link href="/vendor/core/css/price_range_style.css" rel="stylesheet">
+    <script type="text/javascript" src="/vendor/core/js/price_range_script.js"></script>
+</head>
+<body>
+    <header class="show-mb">
+	<div class="container">
+		<div class="row d-flex align-items-center">
+			<div class="col-1">
+				<a data-bs-toggle="offcanvas" href="#offcanvasMenu" role="button" aria-controls="offcanvasWithBackdrop"><i class="fas fa-bars"></i></a>
+			</div>
+			<div class="col-5">
+				<a href="/"><img src="https://www.enroz.com/storage/enroz-logo_1659246449.png" class="img-fluid" alt=""></a>
+			</div>
+			<div class="col-6">
+				<div class="d-flex justify-content-end align-items-center">
+					<div class="ps-3 position-relative">
+						<a href="/user/wishlist"><i class="far fa-heart fa-2x"></i></a>
+						<span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+							0
+						</span>
+					</div>
+					<div class="ps-3 position-relative">
+						<a href="/cart"><i class="fas fa-shopping-cart fa-2x"></i></a>
+						<span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+							0
+						</span>
+					</div>
+					<div class="ps-3">
+						<div class="dropdown">
+							<button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+								<i class="fas fa-user fa-2x"></i>
+							</button>
+							<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenu2">
+								                                <li><a href="/login" class="dropdown-item" type="button">Login</a></li>
+							    <li><a href="/register" class="dropdown-item" type="button">Sign Up</a></li>
+                                                                							</ul>
+						  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row mt-3">
+			<div class="col-12">
+                <form name="search-form" id="search-form-m" method="get" action="https://www.enroz.com/search/product">
+                    <div class="input-group search">
+						<!-- <input type="hidden" name="_token" value="HDkhlMZGj32cVVNOfAJWEAzpW4NFxUOq9OnYXerZ"> -->
+						<input type="text" id="search-m" name="product_keyword" class="form-control" autocomplete="off" placeholder="Search for products, brand and more.." aria-describedby="search">
+						<input class="btn btn-alt" type="submit" value="Search" id="button-addon2">
+                    </div>
+                </form>
+			</div>
+		</div>
+	</div>
+</header>
+
+<header class="hide-mb">
+	<div class="container">
+		<div class="row d-flex align-items-center">
+			<div class="col-md-9">
+				<div class="row d-flex justify-content-between align-items-center">
+					<div class="col-md-3">
+                        <a href="/"><img src="https://www.enroz.com/storage/enroz-logo_1659236282.png" class="img-fluid" alt=""></a>
+					</div>
+					<div class="col-md-7">
+                        <form name="search-form" id="search-form" method="get" action="https://www.enroz.com/search/product">
+                        <!-- <input type="hidden" name="_token" value="HDkhlMZGj32cVVNOfAJWEAzpW4NFxUOq9OnYXerZ"> -->
+                        <div class="input-group search">
+                            <input itemprop="query-input" type="text" id="search" name="product_keyword" class="form-control" autocomplete="off" placeholder="Search for products, brand and more.." aria-label="Recipient's username" aria-describedby="search" required>
+                            <button class="btn btn-theme" type="submit"><i class="fas fa-search"></i></button>
+                        </div>
+                        </form>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-3">
+				<div class="d-flex justify-content-end align-items-center">
+
+					<div class="ps-3 position-relative">
+						<a href="/user/wishlist"><i class="far fa-heart fa-2x"></i></a>
+						<span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+							0
+						</span>
+					</div>
+					<div class="ps-3 position-relative">
+						<a href="/cart"><i class="fas fa-shopping-cart fa-2x"></i></a>
+						<span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                            0
+						</span>
+					</div>
+					<div class="ps-3">
+						<div class="dropdown">
+							<button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+								<i class="fas fa-user fa-2x"></i>
+							</button>
+
+							<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenu2">
+                                                                <li><a href="/login" class="dropdown-item" type="button">Login</a></li>
+							    <li><a href="/register" class="dropdown-item" type="button">Sign Up</a></li>
+                                                                							</ul>
+						  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+    <div class="offcanvas-header">
+        <a class="navmenu-brand" href="/"><img src="https://www.enroz.com/storage/enroz-logo_1659236282.png" class="img-fluid" alt=""></a>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+                <ul>
+                                            <li class=""><a href="/product-category/smart-phones" target="_self">Smart Phones <span><i class="fas fa-chevron-down"></i></span></a>
+                                        <ul>
+                                                <li class=""><a href="/product-category/iphones" target="_self">iPhone </a>
+                                                    </li>
+                                                <li class=""><a href="/product-category/samsung" target="_self">Samsung </a>
+                                                    </li>
+                                                <li class=""><a href="/product-category/xiaomi" target="_self">Xiaomi </a>
+                                                    </li>
+                                            </ul>
+                                    </li>
+                                <li class=""><a href="/product-category/laptops" target="_self">Laptops <span><i class="fas fa-chevron-down"></i></span></a>
+                                        <ul>
+                                                <li class=""><a href="/product-category/macbook" target="_self">Macbook </a>
+                                                    </li>
+                                                <li class=""><a href="/product-category/dell" target="_self">DELL </a>
+                                                    </li>
+                                                <li class=""><a href="/product-category/acer" target="_self">ACER </a>
+                                                    </li>
+                                                <li class=""><a href="/product-category/asus" target="_self">ASUS </a>
+                                                    </li>
+                                            </ul>
+                                    </li>
+                                <li class=""><a href="/product-category/printers" target="_self">Printers <span><i class="fas fa-chevron-down"></i></span></a>
+                                        <ul>
+                                                <li class=""><a href="/product-category/epson" target="_self">Epson </a>
+                                                    </li>
+                                                <li class=""><a href="/product-category/thermal-printers" target="_self">Thermal Printers </a>
+                                                    </li>
+                                                <li class=""><a href="/product-category/chromo-label" target="_self">Chromo Label </a>
+                                                    </li>
+                                                <li class=""><a href="/product-category/paper-roll" target="_self">Paper Roll </a>
+                                                    </li>
+                                            </ul>
+                                    </li>
+                                <li class=""><a href="/product-category/projectors" target="_self">Projectors </a>
+                                    </li>
+                                <li class=""><a href="/product-category/pos-system" target="_self">POS System <span><i class="fas fa-chevron-down"></i></span></a>
+                                        <ul>
+                                                <li class=""><a href="https://www.enroz.com/product/postronix-dual-screen-pos-system" target="_self">Postronix </a>
+                                                    </li>
+                                            </ul>
+                                    </li>
+                                <li class=""><a href="/product-category/computer-accessories" target="_self">Computer Accessories <span><i class="fas fa-chevron-down"></i></span></a>
+                                        <ul>
+                                                <li class=""><a href="/product-category/converter" target="_self">Converter </a>
+                                                    </li>
+                                                <li class=""><a href="/product-category/usb" target="_self">USB </a>
+                                                    </li>
+                                                <li class=""><a href="/product-category/hdmi" target="_self">HDMI </a>
+                                                    </li>
+                                                <li class=""><a href="/product-category/ssd" target="_self">SSD </a>
+                                                    </li>
+                                                <li class=""><a href="/product-category/external-hdd" target="_self">HDD </a>
+                                                    </li>
+                                                <li class=""><a href="/product-category/pendrive" target="_self">Pendrive </a>
+                                                    </li>
+                                            </ul>
+                                    </li>
+                                <li class=""><a href="/product-category/headsets" target="_self">Headsets </a>
+                                    </li>
+                                <li class=""><a href="/product-category/keyboards-mouse" target="_self">Keyboards &amp; Mouse <span><i class="fas fa-chevron-down"></i></span></a>
+                                        <ul>
+                                                <li class=""><a href="/product-category/keyboards" target="_self">Keyboards </a>
+                                                    </li>
+                                                <li class=""><a href="/product-category/mouse" target="_self">Mouse </a>
+                                                    </li>
+                                            </ul>
+                                    </li>
+                                    </ul>
+    </div>
+</div>
+
+<div class="rd-nav hide-mb">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <ul>
+                                                                                            <li class="mega-drop-down ">
+                                                    <a href="/product-category/smart-phones" target="_self" class="">Smart Phones <i class="fas fa-chevron-down"></i> </a>
+                            
+                                                        <div class="animated fadeIn mega-menu">
+                                <div class="mega-menu-wrap">
+                                    <div class="row">
+                                                                                <div class="col-md-4">
+                                            <h4 class="row mega-title ">  <a href="/product-category/iphones" target="_self">  iPhone  </a> </h4>
+                                                                                    </div>
+                                                                                <div class="col-md-4">
+                                            <h4 class="row mega-title ">  <a href="/product-category/samsung" target="_self">  Samsung  </a> </h4>
+                                                                                    </div>
+                                                                                <div class="col-md-4">
+                                            <h4 class="row mega-title ">  <a href="/product-category/xiaomi" target="_self">  Xiaomi  </a> </h4>
+                                                                                    </div>
+                                                                            </div>
+                                </div>  
+                            </div>
+                                                    </li>
+                                                                        <li class="mega-drop-down ">
+                                                    <a href="/product-category/laptops" target="_self" class="">Laptops <i class="fas fa-chevron-down"></i> </a>
+                            
+                                                        <div class="animated fadeIn mega-menu">
+                                <div class="mega-menu-wrap">
+                                    <div class="row">
+                                                                                <div class="col-md-3">
+                                            <h4 class="row mega-title ">  <a href="/product-category/macbook" target="_self">  Macbook  </a> </h4>
+                                                                                    </div>
+                                                                                <div class="col-md-3">
+                                            <h4 class="row mega-title ">  <a href="/product-category/dell" target="_self">  DELL  </a> </h4>
+                                                                                    </div>
+                                                                                <div class="col-md-3">
+                                            <h4 class="row mega-title ">  <a href="/product-category/acer" target="_self">  ACER  </a> </h4>
+                                                                                    </div>
+                                                                                <div class="col-md-3">
+                                            <h4 class="row mega-title ">  <a href="/product-category/asus" target="_self">  ASUS  </a> </h4>
+                                                                                    </div>
+                                                                            </div>
+                                </div>  
+                            </div>
+                                                    </li>
+                                                                        <li class="mega-drop-down ">
+                                                    <a href="/product-category/printers" target="_self" class="">Printers <i class="fas fa-chevron-down"></i> </a>
+                            
+                                                        <div class="animated fadeIn mega-menu">
+                                <div class="mega-menu-wrap">
+                                    <div class="row">
+                                                                                <div class="col-md-3">
+                                            <h4 class="row mega-title ">  <a href="/product-category/epson" target="_self">  Epson  </a> </h4>
+                                                                                    </div>
+                                                                                <div class="col-md-3">
+                                            <h4 class="row mega-title ">  <a href="/product-category/thermal-printers" target="_self">  Thermal Printers  </a> </h4>
+                                                                                    </div>
+                                                                                <div class="col-md-3">
+                                            <h4 class="row mega-title ">  <a href="/product-category/chromo-label" target="_self">  Chromo Label  </a> </h4>
+                                                                                    </div>
+                                                                                <div class="col-md-3">
+                                            <h4 class="row mega-title ">  <a href="/product-category/paper-roll" target="_self">  Paper Roll  </a> </h4>
+                                                                                    </div>
+                                                                            </div>
+                                </div>  
+                            </div>
+                                                    </li>
+                                                                        <li class="mega-drop-down ">
+                                                    <a href="/product-category/projectors" target="_self" class="">Projectors </a>
+                            
+                                                    </li>
+                                                                        <li class="mega-drop-down ">
+                                                    <a href="/product-category/pos-system" target="_self" class="">POS System <i class="fas fa-chevron-down"></i> </a>
+                            
+                                                        <div class="animated fadeIn mega-menu">
+                                <div class="mega-menu-wrap">
+                                    <div class="row">
+                                                                                <div class="col-md-12">
+                                            <h4 class="row mega-title ">  <a href="https://www.enroz.com/product/postronix-dual-screen-pos-system" target="_self">  Postronix  </a> </h4>
+                                                                                    </div>
+                                                                            </div>
+                                </div>  
+                            </div>
+                                                    </li>
+                                                                        <li class="mega-drop-down ">
+                                                    <a href="/product-category/computer-accessories" target="_self" class="">Computer Accessories <i class="fas fa-chevron-down"></i> </a>
+                            
+                                                        <div class="animated fadeIn mega-menu">
+                                <div class="mega-menu-wrap">
+                                    <div class="row">
+                                                                                <div class="col-md-2">
+                                            <h4 class="row mega-title ">  <a href="/product-category/converter" target="_self">  Converter  </a> </h4>
+                                                                                    </div>
+                                                                                <div class="col-md-2">
+                                            <h4 class="row mega-title ">  <a href="/product-category/usb" target="_self">  USB  </a> </h4>
+                                                                                    </div>
+                                                                                <div class="col-md-2">
+                                            <h4 class="row mega-title ">  <a href="/product-category/hdmi" target="_self">  HDMI  </a> </h4>
+                                                                                    </div>
+                                                                                <div class="col-md-2">
+                                            <h4 class="row mega-title ">  <a href="/product-category/ssd" target="_self">  SSD  </a> </h4>
+                                                                                    </div>
+                                                                                <div class="col-md-2">
+                                            <h4 class="row mega-title ">  <a href="/product-category/external-hdd" target="_self">  HDD  </a> </h4>
+                                                                                    </div>
+                                                                                <div class="col-md-2">
+                                            <h4 class="row mega-title ">  <a href="/product-category/pendrive" target="_self">  Pendrive  </a> </h4>
+                                                                                    </div>
+                                                                            </div>
+                                </div>  
+                            </div>
+                                                    </li>
+                                                                        <li class=""> 
+                                                    <a href="/product-category/headsets" target="_self" class="">Headsets </a>
+                            
+                                                    </li>
+                                                                        <li class="mega-drop-down ">
+                                                    <a href="/product-category/keyboards-mouse" target="_self" class="">Keyboards &amp; Mouse <i class="fas fa-chevron-down"></i> </a>
+                            
+                                                        <div class="animated fadeIn mega-menu">
+                                <div class="mega-menu-wrap">
+                                    <div class="row">
+                                                                                <div class="col-md-6">
+                                            <h4 class="row mega-title ">  <a href="/product-category/keyboards" target="_self">  Keyboards  </a> </h4>
+                                                                                    </div>
+                                                                                <div class="col-md-6">
+                                            <h4 class="row mega-title ">  <a href="/product-category/mouse" target="_self">  Mouse  </a> </h4>
+                                                                                    </div>
+                                                                            </div>
+                                </div>  
+                            </div>
+                                                    </li>
+                                                            </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <div class="position-fixed top-0 end-0 p-3" style="z-index: 5; display:none" id="toast-div">
+	<div class="toast align-items-center text-white bg-danger border-0" id="toastDiv" role="alert" aria-live="assertive" aria-atomic="true">
+		<div class="d-flex">
+			<div class="toast-body">
+				<p id="toastMessage"></p>
+			</div>
+			<button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+		</div>
+	</div>
+</div>
+    
+    <div id="view-cart"  style="display:none;" >
+      <a href="/cart" class="btn btn-success"><i class="fas fa-3x fa-shopping-cart"></i><br> View Cart</a>
+    </div>
+
+        <div class="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="/">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Smart Phones</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+                        <div class="row">
+                <div class="rd-brand">
+                                    </div>
+            </div>
+                        <div class="row">
+                <div class="col-md-3 hide-mb">
+                    <div class="rd-wrap filter">
+                        <div class="layout-2">
+                            <h3 class="title">Filters <span><a href="javascript:void(0);" class="clear-all">clear all</a></span></h3>
+                        </div>
+                        <ul class="selected-clear">
+                        </ul>
+                        <hr>
+                        <div class="label">Price</div>
+                        <div class="row">
+                                                        <div style="font-size: 0.9rem;">
+                                <div class="float-start min_price">Rs.0</div>
+                                <div class="float-end max_price">Rs.226999</div>
+                            </div>
+                            <div class="pt-2">
+                                <div id="slider-range" class="price-filter-range price-slider-range" style="width: 100%" name="rangeInput"></div>
+                            </div>
+
+                            <div style="margin:30px auto; display:none">
+                                <input type="number" min=0 max="226989" data-min-price="0" data-default-min-price="0" oninput="validity.valid||(value='0');" id="min_price" class="price-range-field" />
+                                <input type="number" min=0 max="226999" data-max-price="226999" data-default-max-price="226999" oninput="validity.valid||(value='226999');" id="max_price" class="price-range-field" />
+                            </div>
+
+                            <button class="price-range-search" id="price-range-submit" style="display:none;">Search</button>
+
+                            <!-- <div id="searchResults" class="search-results-block"></div> -->
+                        </div>
+                        <hr/>
+                                                                                                <div class="label">Variant</div>
+                        <div class="swatches" data-attribute="Variant" data-id="147" data-variable="1" data-option-index="1">
+                                                        <div class="d-flex align-items-center justify-content-between">
+                                <div class="swatch" data-option-index="1">
+                                                                                                    <div data-value="6/128 GB" class="swatch-element plain available">
+                                                                                    <input class="prod_attr_var " data-id="81" data-variable="1" id="attribute_6/128_g_b_147" type="radio" name="attribute_variant" value="6/128 GB"  />
+                                        									    <label for="attribute_6/128_g_b_147">6/128 GB</label>
+                                    </div>
+                                                                    <div data-value="6/256 GB" class="swatch-element plain available">
+                                                                                    <input class="prod_attr_var " data-id="82" data-variable="1" id="attribute_6/256_g_b_147" type="radio" name="attribute_variant" value="6/256 GB"  />
+                                        									    <label for="attribute_6/256_g_b_147">6/256 GB</label>
+                                    </div>
+                                                                    <div data-value="8/256 GB" class="swatch-element plain available">
+                                                                                    <input class="prod_attr_var " data-id="83" data-variable="1" id="attribute_8/256_g_b_147" type="radio" name="attribute_variant" value="8/256 GB"  />
+                                        									    <label for="attribute_8/256_g_b_147">8/256 GB</label>
+                                    </div>
+                                                                    <div data-value="8/128 GB" class="swatch-element plain available">
+                                                                                    <input class="prod_attr_var " data-id="95" data-variable="1" id="attribute_8/128_g_b_147" type="radio" name="attribute_variant" value="8/128 GB"  />
+                                        									    <label for="attribute_8/128_g_b_147">8/128 GB</label>
+                                    </div>
+                                                                                                </div>
+                            </div>
+                                                    </div>
+                        <hr />
+                                                <div class="label">Color</div>
+                        <div class="swatches" data-attribute="Color" data-id="8" data-variable="1" data-option-index="2">
+                                                        <div class="swatch" data-option-index="2">
+                                                                                                <div data-value="Red" class="swatch-element color available">
+                                    <div class="tooltip">Red</div>
+                                                                            <input quickbeam="color " class="prod_attr_var" data-id="22" data-variable="1" id="attribute_red_8" type="radio" name="attribute_color" value="Red"  />
+                                                                        <label for="attribute_red_8" style="background-color: red;">
+                                        <span style="background-color: red;"></span>
+                                    </label>
+                                </div>
+                                                                <div data-value="Blue" class="swatch-element color available">
+                                    <div class="tooltip">Blue</div>
+                                                                            <input quickbeam="color " class="prod_attr_var" data-id="23" data-variable="1" id="attribute_blue_8" type="radio" name="attribute_color" value="Blue"  />
+                                                                        <label for="attribute_blue_8" style="background-color: blue;">
+                                        <span style="background-color: blue;"></span>
+                                    </label>
+                                </div>
+                                                                <div data-value="Green" class="swatch-element color available">
+                                    <div class="tooltip">Green</div>
+                                                                            <input quickbeam="color " class="prod_attr_var" data-id="24" data-variable="1" id="attribute_green_8" type="radio" name="attribute_color" value="Green"  />
+                                                                        <label for="attribute_green_8" style="background-color: green;">
+                                        <span style="background-color: green;"></span>
+                                    </label>
+                                </div>
+                                                                <div data-value="Silver" class="swatch-element color available">
+                                    <div class="tooltip">Silver</div>
+                                                                            <input quickbeam="color " class="prod_attr_var" data-id="26" data-variable="1" id="attribute_silver_8" type="radio" name="attribute_color" value="Silver"  />
+                                                                        <label for="attribute_silver_8" style="background-color: silver;">
+                                        <span style="background-color: silver;"></span>
+                                    </label>
+                                </div>
+                                                                <div data-value="Black" class="swatch-element color available">
+                                    <div class="tooltip">Black</div>
+                                                                            <input quickbeam="color " class="prod_attr_var" data-id="27" data-variable="1" id="attribute_black_8" type="radio" name="attribute_color" value="Black"  />
+                                                                        <label for="attribute_black_8" style="background-color: black;">
+                                        <span style="background-color: black;"></span>
+                                    </label>
+                                </div>
+                                                                <div data-value="White" class="swatch-element color available">
+                                    <div class="tooltip">White</div>
+                                                                            <input quickbeam="color " class="prod_attr_var" data-id="28" data-variable="1" id="attribute_white_8" type="radio" name="attribute_color" value="White"  />
+                                                                        <label for="attribute_white_8" style="background-color: white;">
+                                        <span style="background-color: white;"></span>
+                                    </label>
+                                </div>
+                                                                <div data-value="Yellow" class="swatch-element color available">
+                                    <div class="tooltip">Yellow</div>
+                                                                            <input quickbeam="color " class="prod_attr_var" data-id="96" data-variable="1" id="attribute_yellow_8" type="radio" name="attribute_color" value="Yellow"  />
+                                                                        <label for="attribute_yellow_8" style="background-color: yellow;">
+                                        <span style="background-color: yellow;"></span>
+                                    </label>
+                                </div>
+                                                                <div data-value="Pink" class="swatch-element color available">
+                                    <div class="tooltip">Pink</div>
+                                                                            <input quickbeam="color " class="prod_attr_var" data-id="97" data-variable="1" id="attribute_pink_8" type="radio" name="attribute_color" value="Pink"  />
+                                                                        <label for="attribute_pink_8" style="background-color: pink;">
+                                        <span style="background-color: pink;"></span>
+                                    </label>
+                                </div>
+                                                                <div data-value="Natural" class="swatch-element color available">
+                                    <div class="tooltip">Natural</div>
+                                                                            <input quickbeam="color " class="prod_attr_var" data-id="102" data-variable="1" id="attribute_natural_8" type="radio" name="attribute_color" value="Natural"  />
+                                                                        <label for="attribute_natural_8" style="background-color: natural;">
+                                        <span style="background-color: natural;"></span>
+                                    </label>
+                                </div>
+                                                                                            </div>
+                                                    </div>
+                        <hr />
+                                                <div class="label">Color</div>
+                        <div class="swatches" data-attribute="Color" data-id="8" data-variable="1" data-option-index="3">
+                                                        <div class="swatch" data-option-index="3">
+                                                                                                <div data-value="Red" class="swatch-element color available">
+                                    <div class="tooltip">Red</div>
+                                                                            <input quickbeam="color " class="prod_attr_var" data-id="22" data-variable="1" id="attribute_red_8" type="radio" name="attribute_color" value="Red"  />
+                                                                        <label for="attribute_red_8" style="background-color: red;">
+                                        <span style="background-color: red;"></span>
+                                    </label>
+                                </div>
+                                                                <div data-value="Blue" class="swatch-element color available">
+                                    <div class="tooltip">Blue</div>
+                                                                            <input quickbeam="color " class="prod_attr_var" data-id="23" data-variable="1" id="attribute_blue_8" type="radio" name="attribute_color" value="Blue"  />
+                                                                        <label for="attribute_blue_8" style="background-color: blue;">
+                                        <span style="background-color: blue;"></span>
+                                    </label>
+                                </div>
+                                                                <div data-value="Green" class="swatch-element color available">
+                                    <div class="tooltip">Green</div>
+                                                                            <input quickbeam="color " class="prod_attr_var" data-id="24" data-variable="1" id="attribute_green_8" type="radio" name="attribute_color" value="Green"  />
+                                                                        <label for="attribute_green_8" style="background-color: green;">
+                                        <span style="background-color: green;"></span>
+                                    </label>
+                                </div>
+                                                                <div data-value="Silver" class="swatch-element color available">
+                                    <div class="tooltip">Silver</div>
+                                                                            <input quickbeam="color " class="prod_attr_var" data-id="26" data-variable="1" id="attribute_silver_8" type="radio" name="attribute_color" value="Silver"  />
+                                                                        <label for="attribute_silver_8" style="background-color: silver;">
+                                        <span style="background-color: silver;"></span>
+                                    </label>
+                                </div>
+                                                                <div data-value="Black" class="swatch-element color available">
+                                    <div class="tooltip">Black</div>
+                                                                            <input quickbeam="color " class="prod_attr_var" data-id="27" data-variable="1" id="attribute_black_8" type="radio" name="attribute_color" value="Black"  />
+                                                                        <label for="attribute_black_8" style="background-color: black;">
+                                        <span style="background-color: black;"></span>
+                                    </label>
+                                </div>
+                                                                <div data-value="White" class="swatch-element color available">
+                                    <div class="tooltip">White</div>
+                                                                            <input quickbeam="color " class="prod_attr_var" data-id="28" data-variable="1" id="attribute_white_8" type="radio" name="attribute_color" value="White"  />
+                                                                        <label for="attribute_white_8" style="background-color: white;">
+                                        <span style="background-color: white;"></span>
+                                    </label>
+                                </div>
+                                                                <div data-value="Yellow" class="swatch-element color available">
+                                    <div class="tooltip">Yellow</div>
+                                                                            <input quickbeam="color " class="prod_attr_var" data-id="96" data-variable="1" id="attribute_yellow_8" type="radio" name="attribute_color" value="Yellow"  />
+                                                                        <label for="attribute_yellow_8" style="background-color: yellow;">
+                                        <span style="background-color: yellow;"></span>
+                                    </label>
+                                </div>
+                                                                <div data-value="Pink" class="swatch-element color available">
+                                    <div class="tooltip">Pink</div>
+                                                                            <input quickbeam="color " class="prod_attr_var" data-id="97" data-variable="1" id="attribute_pink_8" type="radio" name="attribute_color" value="Pink"  />
+                                                                        <label for="attribute_pink_8" style="background-color: pink;">
+                                        <span style="background-color: pink;"></span>
+                                    </label>
+                                </div>
+                                                                <div data-value="Natural" class="swatch-element color available">
+                                    <div class="tooltip">Natural</div>
+                                                                            <input quickbeam="color " class="prod_attr_var" data-id="102" data-variable="1" id="attribute_natural_8" type="radio" name="attribute_color" value="Natural"  />
+                                                                        <label for="attribute_natural_8" style="background-color: natural;">
+                                        <span style="background-color: natural;"></span>
+                                    </label>
+                                </div>
+                                                                                            </div>
+                                                    </div>
+                        <hr />
+                                                                        <div class="label">Brand</div>
+                        <div class="brand-area">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control form-control-sm select2" id='search-brand' placeholder="Search Brand..">
+                                <button class="btn btn-theme" type="button"><i class="fas fa-search"></i></button>
+                            </div>
+                            <div class="list-group" id="brand-list-group">
+                                                                                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="rd-wrap">
+                        <div class="layout-2">
+                            <h1 class="mb-4">Smart Phones</h1>
+                            <ul class="sort">
+                                <li>Sort By:</li>
+                                <li class=""><a href="/product-category/smart-phones?sort=latest">Newest First</a></li>
+                                <li class="active"><a href="/product-category/smart-phones?sort=popularity">Popularity</a></li>
+                                <li class=""><a href="/product-category/smart-phones?sort=low-high">Low to High</a></li>
+                                <li class=""><a href="/product-category/smart-phones?sort=high-low">High to Low</a></li>
+                            </ul>
+                        </div>
+                        <div class="product category-product-list layout-1">
+    <div class="row">
+                    <div class="col-md-3 col-6 mb-3">
+                <div class="p-2 mb-3 border rounded position-relative">
+                    <!-- <div class="ribbon ribbon-top-right"><span class="bg-warning">Special Offer</span></div> -->
+                    <div class="img-area">
+                        <!-- <div class="fav">
+                            <a href="#"><i class="fas fa-heart"></i></a>
+                        </div> -->
+                        <a href="/product/xiaomi-poco-m2-reloaded-464-gb"><img src="https://www.enroz.com/storage/products/2024/January/29/thumbnails/poco_1660108310_1706521749.jpg" class="img-fluid" alt="Xiaomi POCO M2 RELOADED 4/64 GB"></a>
+                    </div>
+                    <h3><a href="/product/xiaomi-poco-m2-reloaded-464-gb">Xiaomi POCO M2 RELOADED 4/64 GB</a></h3>
+                    <div class="d-flex align-items-center rate-area">
+                        <ul class="rate">
+	<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li></ul>                        <!-- <div>
+                            <a href="javascript:void(0);">2 Ratings</a>
+                        </div> -->
+                    </div>
+                    <div class="product-price">
+                        Rs.18499
+                                                                                            </div>
+
+                    <div class="row g-1 d-flex align-items-center">
+                        <!-- <div class="col-12">
+                            <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                                <option value="500">500 g</option>
+                                <option value="1">1 kg</option>
+                                <option value="2">50 kg</option>
+                                <option value="3">1 ton</option>
+                            </select>
+                        </div> -->
+                        <div class="col-5">
+                            <input type="number" class="form-control form-control-sm quantity-input" data-quantity-target="" value="1" step="1" min="1" max="10" name="quantity">
+                        </div>
+                        <div class="col-7">
+                                                            <div class="col-12">
+                                    <a href="/product/xiaomi-poco-m2-reloaded-464-gb" class="btn btn-sm btn-alt w-100"><i class="fas fa-shopping-cart"></i> Select</a>
+                                </div>
+                                                            </div>
+
+                    </div>
+                </div>
+            </div>
+                    <div class="col-md-3 col-6 mb-3">
+                <div class="p-2 mb-3 border rounded position-relative">
+                    <!-- <div class="ribbon ribbon-top-right"><span class="bg-warning">Special Offer</span></div> -->
+                    <div class="img-area">
+                        <!-- <div class="fav">
+                            <a href="#"><i class="fas fa-heart"></i></a>
+                        </div> -->
+                        <a href="/product/redmi-note-10-pro-6128-gb-enroz-online"><img src="https://www.enroz.com/storage/products/2023/March/21/thumbnails/Redmi-Note-10-Pro-6-128-GB_1679401039.jpg" class="img-fluid" alt="Redmi Note 10 Pro 6/128 GB  |Enroz online "></a>
+                    </div>
+                    <h3><a href="/product/redmi-note-10-pro-6128-gb-enroz-online">Redmi Note 10 Pro 6/128 GB  |Enroz online </a></h3>
+                    <div class="d-flex align-items-center rate-area">
+                        <ul class="rate">
+	<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li></ul>                        <!-- <div>
+                            <a href="javascript:void(0);">2 Ratings</a>
+                        </div> -->
+                    </div>
+                    <div class="product-price">
+                        Rs.34999
+                                                                                            </div>
+
+                    <div class="row g-1 d-flex align-items-center">
+                        <!-- <div class="col-12">
+                            <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                                <option value="500">500 g</option>
+                                <option value="1">1 kg</option>
+                                <option value="2">50 kg</option>
+                                <option value="3">1 ton</option>
+                            </select>
+                        </div> -->
+                        <div class="col-5">
+                            <input type="number" class="form-control form-control-sm quantity-input" data-quantity-target="" value="1" step="1" min="1" max="10" name="quantity">
+                        </div>
+                        <div class="col-7">
+                                                            <a href="javascript:void(0);" class="btn btn-theme btn-cart add-to-cart-simple"><i class="fas fa-shopping-cart"></i> </a>
+                                <span style="display:none;" class="product_info" data-id="995" data-title="Redmi Note 10 Pro 6/128 GB  |Enroz online " data-image="https://www.enroz.com/storage/products/2023/March/21/thumbnails/Redmi-Note-10-Pro-6-128-GB_1679401039.jpg" data-rprice="34999" data-sprice="0">&nbsp;</span>
+                                <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#orderByPhone" class="order_by_phone btn btn-alt btn-cart"><i class="fas fa-phone"></i> </a>
+                                                            </div>
+
+                    </div>
+                </div>
+            </div>
+                    <div class="col-md-3 col-6 mb-3">
+                <div class="p-2 mb-3 border rounded position-relative">
+                    <!-- <div class="ribbon ribbon-top-right"><span class="bg-warning">Special Offer</span></div> -->
+                    <div class="img-area">
+                        <!-- <div class="fav">
+                            <a href="#"><i class="fas fa-heart"></i></a>
+                        </div> -->
+                        <a href="/product/xiaomi-poco-m3-pro-5g-464gb"><img src="https://www.enroz.com/storage/products/2024/January/29/thumbnails/125_1661937636_1706515488.jpg" class="img-fluid" alt="Xiaomi Poco M3 Pro 5G 4/64GB"></a>
+                    </div>
+                    <h3><a href="/product/xiaomi-poco-m3-pro-5g-464gb">Xiaomi Poco M3 Pro 5G 4/64GB</a></h3>
+                    <div class="d-flex align-items-center rate-area">
+                        <ul class="rate">
+	<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li></ul>                        <!-- <div>
+                            <a href="javascript:void(0);">2 Ratings</a>
+                        </div> -->
+                    </div>
+                    <div class="product-price">
+                        Rs.24499
+                                                                                            </div>
+
+                    <div class="row g-1 d-flex align-items-center">
+                        <!-- <div class="col-12">
+                            <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                                <option value="500">500 g</option>
+                                <option value="1">1 kg</option>
+                                <option value="2">50 kg</option>
+                                <option value="3">1 ton</option>
+                            </select>
+                        </div> -->
+                        <div class="col-5">
+                            <input type="number" class="form-control form-control-sm quantity-input" data-quantity-target="" value="1" step="1" min="1" max="10" name="quantity">
+                        </div>
+                        <div class="col-7">
+                                                            <a href="javascript:void(0);" class="btn btn-theme btn-cart add-to-cart-simple"><i class="fas fa-shopping-cart"></i> </a>
+                                <span style="display:none;" class="product_info" data-id="866" data-title="Xiaomi Poco M3 Pro 5G 4/64GB" data-image="https://www.enroz.com/storage/products/2024/January/29/thumbnails/125_1661937636_1706515488.jpg" data-rprice="24499" data-sprice="0">&nbsp;</span>
+                                <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#orderByPhone" class="order_by_phone btn btn-alt btn-cart"><i class="fas fa-phone"></i> </a>
+                                                            </div>
+
+                    </div>
+                </div>
+            </div>
+                    <div class="col-md-3 col-6 mb-3">
+                <div class="p-2 mb-3 border rounded position-relative">
+                    <!-- <div class="ribbon ribbon-top-right"><span class="bg-warning">Special Offer</span></div> -->
+                    <div class="img-area">
+                        <!-- <div class="fav">
+                            <a href="#"><i class="fas fa-heart"></i></a>
+                        </div> -->
+                        <a href="/product/xiaomi-redmi-9a"><img src="https://www.enroz.com/storage/products/2024/January/29/thumbnails/p1_1659865376_(2)_1706525641.png" class="img-fluid" alt="Xiaomi Redmi 9A"></a>
+                    </div>
+                    <h3><a href="/product/xiaomi-redmi-9a">Xiaomi Redmi 9A</a></h3>
+                    <div class="d-flex align-items-center rate-area">
+                        <ul class="rate">
+	<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li></ul>                        <!-- <div>
+                            <a href="javascript:void(0);">2 Ratings</a>
+                        </div> -->
+                    </div>
+                    <div class="product-price">
+                        Rs.13499
+                                                                                            </div>
+
+                    <div class="row g-1 d-flex align-items-center">
+                        <!-- <div class="col-12">
+                            <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                                <option value="500">500 g</option>
+                                <option value="1">1 kg</option>
+                                <option value="2">50 kg</option>
+                                <option value="3">1 ton</option>
+                            </select>
+                        </div> -->
+                        <div class="col-5">
+                            <input type="number" class="form-control form-control-sm quantity-input" data-quantity-target="" value="1" step="1" min="1" max="10" name="quantity">
+                        </div>
+                        <div class="col-7">
+                                                            <div class="col-12">
+                                    <a href="/product/xiaomi-redmi-9a" class="btn btn-sm btn-alt w-100"><i class="fas fa-shopping-cart"></i> Select</a>
+                                </div>
+                                                            </div>
+
+                    </div>
+                </div>
+            </div>
+                    <div class="col-md-3 col-6 mb-3">
+                <div class="p-2 mb-3 border rounded position-relative">
+                    <!-- <div class="ribbon ribbon-top-right"><span class="bg-warning">Special Offer</span></div> -->
+                    <div class="img-area">
+                        <!-- <div class="fav">
+                            <a href="#"><i class="fas fa-heart"></i></a>
+                        </div> -->
+                        <a href="/product/xiaomi-redmi-note-11-pro-4g-enroz-online"><img src="https://www.enroz.com/storage/products/2024/January/29/thumbnails/6_1661165507_1706513420_1706515091.png" class="img-fluid" alt="Xiaomi Redmi Note 11 Pro 4G | Enroz Online"></a>
+                    </div>
+                    <h3><a href="/product/xiaomi-redmi-note-11-pro-4g-enroz-online">Xiaomi Redmi Note 11 Pro 4G | Enroz Online</a></h3>
+                    <div class="d-flex align-items-center rate-area">
+                        <ul class="rate">
+	<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li></ul>                        <!-- <div>
+                            <a href="javascript:void(0);">2 Ratings</a>
+                        </div> -->
+                    </div>
+                    <div class="product-price">
+                        Rs.35999
+                                                                                            </div>
+
+                    <div class="row g-1 d-flex align-items-center">
+                        <!-- <div class="col-12">
+                            <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                                <option value="500">500 g</option>
+                                <option value="1">1 kg</option>
+                                <option value="2">50 kg</option>
+                                <option value="3">1 ton</option>
+                            </select>
+                        </div> -->
+                        <div class="col-5">
+                            <input type="number" class="form-control form-control-sm quantity-input" data-quantity-target="" value="1" step="1" min="1" max="10" name="quantity">
+                        </div>
+                        <div class="col-7">
+                                                            <a href="javascript:void(0);" class="btn btn-theme btn-cart add-to-cart-simple"><i class="fas fa-shopping-cart"></i> </a>
+                                <span style="display:none;" class="product_info" data-id="973" data-title="Xiaomi Redmi Note 11 Pro 4G | Enroz Online" data-image="https://www.enroz.com/storage/products/2024/January/29/thumbnails/6_1661165507_1706513420_1706515091.png" data-rprice="35999" data-sprice="0">&nbsp;</span>
+                                <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#orderByPhone" class="order_by_phone btn btn-alt btn-cart"><i class="fas fa-phone"></i> </a>
+                                                            </div>
+
+                    </div>
+                </div>
+            </div>
+                    <div class="col-md-3 col-6 mb-3">
+                <div class="p-2 mb-3 border rounded position-relative">
+                    <!-- <div class="ribbon ribbon-top-right"><span class="bg-warning">Special Offer</span></div> -->
+                    <div class="img-area">
+                        <!-- <div class="fav">
+                            <a href="#"><i class="fas fa-heart"></i></a>
+                        </div> -->
+                        <a href="/product/redmi-note-11-pro-5g-6128gb"><img src="https://www.enroz.com/storage/products/2024/January/29/thumbnails/Redmi-Note-11-Pro-5G_1679323693_1706513607.jpg" class="img-fluid" alt="Redmi Note 11 Pro 5G (6/128GB)"></a>
+                    </div>
+                    <h3><a href="/product/redmi-note-11-pro-5g-6128gb">Redmi Note 11 Pro 5G (6/128GB)</a></h3>
+                    <div class="d-flex align-items-center rate-area">
+                        <ul class="rate">
+	<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li></ul>                        <!-- <div>
+                            <a href="javascript:void(0);">2 Ratings</a>
+                        </div> -->
+                    </div>
+                    <div class="product-price">
+                        Rs.40499
+                                                                                            </div>
+
+                    <div class="row g-1 d-flex align-items-center">
+                        <!-- <div class="col-12">
+                            <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                                <option value="500">500 g</option>
+                                <option value="1">1 kg</option>
+                                <option value="2">50 kg</option>
+                                <option value="3">1 ton</option>
+                            </select>
+                        </div> -->
+                        <div class="col-5">
+                            <input type="number" class="form-control form-control-sm quantity-input" data-quantity-target="" value="1" step="1" min="1" max="10" name="quantity">
+                        </div>
+                        <div class="col-7">
+                                                            <a href="javascript:void(0);" class="btn btn-theme btn-cart add-to-cart-simple"><i class="fas fa-shopping-cart"></i> </a>
+                                <span style="display:none;" class="product_info" data-id="1141" data-title="Redmi Note 11 Pro 5G (6/128GB)" data-image="https://www.enroz.com/storage/products/2024/January/29/thumbnails/Redmi-Note-11-Pro-5G_1679323693_1706513607.jpg" data-rprice="40499" data-sprice="0">&nbsp;</span>
+                                <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#orderByPhone" class="order_by_phone btn btn-alt btn-cart"><i class="fas fa-phone"></i> </a>
+                                                            </div>
+
+                    </div>
+                </div>
+            </div>
+                    <div class="col-md-3 col-6 mb-3">
+                <div class="p-2 mb-3 border rounded position-relative">
+                    <!-- <div class="ribbon ribbon-top-right"><span class="bg-warning">Special Offer</span></div> -->
+                    <div class="img-area">
+                        <!-- <div class="fav">
+                            <a href="#"><i class="fas fa-heart"></i></a>
+                        </div> -->
+                        <a href="/product/xiaomi-redmi-10"><img src="https://www.enroz.com/storage/products/2024/January/29/thumbnails/R2_1659954674_1706521952.jpg" class="img-fluid" alt="Xiaomi Redmi 10 "></a>
+                    </div>
+                    <h3><a href="/product/xiaomi-redmi-10">Xiaomi Redmi 10 </a></h3>
+                    <div class="d-flex align-items-center rate-area">
+                        <ul class="rate">
+	<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li></ul>                        <!-- <div>
+                            <a href="javascript:void(0);">2 Ratings</a>
+                        </div> -->
+                    </div>
+                    <div class="product-price">
+                        Rs.19499
+                                                                                            </div>
+
+                    <div class="row g-1 d-flex align-items-center">
+                        <!-- <div class="col-12">
+                            <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                                <option value="500">500 g</option>
+                                <option value="1">1 kg</option>
+                                <option value="2">50 kg</option>
+                                <option value="3">1 ton</option>
+                            </select>
+                        </div> -->
+                        <div class="col-5">
+                            <input type="number" class="form-control form-control-sm quantity-input" data-quantity-target="" value="1" step="1" min="1" max="10" name="quantity">
+                        </div>
+                        <div class="col-7">
+                                                            <div class="col-12">
+                                    <a href="/product/xiaomi-redmi-10" class="btn btn-sm btn-alt w-100"><i class="fas fa-shopping-cart"></i> Select</a>
+                                </div>
+                                                            </div>
+
+                    </div>
+                </div>
+            </div>
+                    <div class="col-md-3 col-6 mb-3">
+                <div class="p-2 mb-3 border rounded position-relative">
+                    <!-- <div class="ribbon ribbon-top-right"><span class="bg-warning">Special Offer</span></div> -->
+                    <div class="img-area">
+                        <!-- <div class="fav">
+                            <a href="#"><i class="fas fa-heart"></i></a>
+                        </div> -->
+                        <a href="/product/xiaomi-poco-m3-464-gb"><img src="https://www.enroz.com/storage/products/2024/January/29/thumbnails/pvm_poco_m3_(1)_18855_1606344304_1660109593_1706521687.jpg" class="img-fluid" alt="Xiaomi POCO M3 4/64 GB "></a>
+                    </div>
+                    <h3><a href="/product/xiaomi-poco-m3-464-gb">Xiaomi POCO M3 4/64 GB </a></h3>
+                    <div class="d-flex align-items-center rate-area">
+                        <ul class="rate">
+	<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li></ul>                        <!-- <div>
+                            <a href="javascript:void(0);">2 Ratings</a>
+                        </div> -->
+                    </div>
+                    <div class="product-price">
+                        Rs.19499
+                                                                                            </div>
+
+                    <div class="row g-1 d-flex align-items-center">
+                        <!-- <div class="col-12">
+                            <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                                <option value="500">500 g</option>
+                                <option value="1">1 kg</option>
+                                <option value="2">50 kg</option>
+                                <option value="3">1 ton</option>
+                            </select>
+                        </div> -->
+                        <div class="col-5">
+                            <input type="number" class="form-control form-control-sm quantity-input" data-quantity-target="" value="1" step="1" min="1" max="10" name="quantity">
+                        </div>
+                        <div class="col-7">
+                                                            <div class="col-12">
+                                    <a href="/product/xiaomi-poco-m3-464-gb" class="btn btn-sm btn-alt w-100"><i class="fas fa-shopping-cart"></i> Select</a>
+                                </div>
+                                                            </div>
+
+                    </div>
+                </div>
+            </div>
+                    <div class="col-md-3 col-6 mb-3">
+                <div class="p-2 mb-3 border rounded position-relative">
+                    <!-- <div class="ribbon ribbon-top-right"><span class="bg-warning">Special Offer</span></div> -->
+                    <div class="img-area">
+                        <!-- <div class="fav">
+                            <a href="#"><i class="fas fa-heart"></i></a>
+                        </div> -->
+                        <a href="/product/mi-11x-pro-8128-gb-enroz-online"><img src="https://www.enroz.com/storage/products/2024/February/01/thumbnails/Mi-11X-Pro-8128-GB_1679400821_1706514047_1706514488_1706782300.jpg" class="img-fluid" alt="Mi 11X Pro 8/128 GB | Enroz Online"></a>
+                    </div>
+                    <h3><a href="/product/mi-11x-pro-8128-gb-enroz-online">Mi 11X Pro 8/128 GB | Enroz Online</a></h3>
+                    <div class="d-flex align-items-center rate-area">
+                        <ul class="rate">
+	<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li></ul>                        <!-- <div>
+                            <a href="javascript:void(0);">2 Ratings</a>
+                        </div> -->
+                    </div>
+                    <div class="product-price">
+                        Rs.65999
+                                                                                            </div>
+
+                    <div class="row g-1 d-flex align-items-center">
+                        <!-- <div class="col-12">
+                            <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                                <option value="500">500 g</option>
+                                <option value="1">1 kg</option>
+                                <option value="2">50 kg</option>
+                                <option value="3">1 ton</option>
+                            </select>
+                        </div> -->
+                        <div class="col-5">
+                            <input type="number" class="form-control form-control-sm quantity-input" data-quantity-target="" value="1" step="1" min="1" max="10" name="quantity">
+                        </div>
+                        <div class="col-7">
+                                                            <a href="javascript:void(0);" class="btn btn-theme btn-cart add-to-cart-simple"><i class="fas fa-shopping-cart"></i> </a>
+                                <span style="display:none;" class="product_info" data-id="1055" data-title="Mi 11X Pro 8/128 GB | Enroz Online" data-image="https://www.enroz.com/storage/products/2024/February/01/thumbnails/Mi-11X-Pro-8128-GB_1679400821_1706514047_1706514488_1706782300.jpg" data-rprice="65999" data-sprice="0">&nbsp;</span>
+                                <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#orderByPhone" class="order_by_phone btn btn-alt btn-cart"><i class="fas fa-phone"></i> </a>
+                                                            </div>
+
+                    </div>
+                </div>
+            </div>
+                    <div class="col-md-3 col-6 mb-3">
+                <div class="p-2 mb-3 border rounded position-relative">
+                    <!-- <div class="ribbon ribbon-top-right"><span class="bg-warning">Special Offer</span></div> -->
+                    <div class="img-area">
+                        <!-- <div class="fav">
+                            <a href="#"><i class="fas fa-heart"></i></a>
+                        </div> -->
+                        <a href="/product/mi-12-pro-12256-gb"><img src="https://www.enroz.com/storage/products/2024/January/29/thumbnails/download_(9)_1706514745.jpeg" class="img-fluid" alt="Mi 12 Pro 12/256 GB"></a>
+                    </div>
+                    <h3><a href="/product/mi-12-pro-12256-gb">Mi 12 Pro 12/256 GB</a></h3>
+                    <div class="d-flex align-items-center rate-area">
+                        <ul class="rate">
+	<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li></ul>                        <!-- <div>
+                            <a href="javascript:void(0);">2 Ratings</a>
+                        </div> -->
+                    </div>
+                    <div class="product-price">
+                        Rs.116999
+                                                                                            </div>
+
+                    <div class="row g-1 d-flex align-items-center">
+                        <!-- <div class="col-12">
+                            <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                                <option value="500">500 g</option>
+                                <option value="1">1 kg</option>
+                                <option value="2">50 kg</option>
+                                <option value="3">1 ton</option>
+                            </select>
+                        </div> -->
+                        <div class="col-5">
+                            <input type="number" class="form-control form-control-sm quantity-input" data-quantity-target="" value="1" step="1" min="1" max="10" name="quantity">
+                        </div>
+                        <div class="col-7">
+                                                            <a href="javascript:void(0);" class="btn btn-theme btn-cart add-to-cart-simple"><i class="fas fa-shopping-cart"></i> </a>
+                                <span style="display:none;" class="product_info" data-id="1004" data-title="Mi 12 Pro 12/256 GB" data-image="https://www.enroz.com/storage/products/2024/January/29/thumbnails/download_(9)_1706514745.jpeg" data-rprice="116999" data-sprice="0">&nbsp;</span>
+                                <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#orderByPhone" class="order_by_phone btn btn-alt btn-cart"><i class="fas fa-phone"></i> </a>
+                                                            </div>
+
+                    </div>
+                </div>
+            </div>
+                    <div class="col-md-3 col-6 mb-3">
+                <div class="p-2 mb-3 border rounded position-relative">
+                    <!-- <div class="ribbon ribbon-top-right"><span class="bg-warning">Special Offer</span></div> -->
+                    <div class="img-area">
+                        <!-- <div class="fav">
+                            <a href="#"><i class="fas fa-heart"></i></a>
+                        </div> -->
+                        <a href="/product/xiaomi-poco-c3"><img src="https://www.enroz.com/storage/products/2024/January/29/thumbnails/download_1660030732_(1)_1706521897.jfif" class="img-fluid" alt=" Xiaomi POCO C3"></a>
+                    </div>
+                    <h3><a href="/product/xiaomi-poco-c3"> Xiaomi POCO C3</a></h3>
+                    <div class="d-flex align-items-center rate-area">
+                        <ul class="rate">
+	<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li></ul>                        <!-- <div>
+                            <a href="javascript:void(0);">2 Ratings</a>
+                        </div> -->
+                    </div>
+                    <div class="product-price">
+                        Rs.14499
+                                                                                            </div>
+
+                    <div class="row g-1 d-flex align-items-center">
+                        <!-- <div class="col-12">
+                            <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                                <option value="500">500 g</option>
+                                <option value="1">1 kg</option>
+                                <option value="2">50 kg</option>
+                                <option value="3">1 ton</option>
+                            </select>
+                        </div> -->
+                        <div class="col-5">
+                            <input type="number" class="form-control form-control-sm quantity-input" data-quantity-target="" value="1" step="1" min="1" max="10" name="quantity">
+                        </div>
+                        <div class="col-7">
+                                                            <div class="col-12">
+                                    <a href="/product/xiaomi-poco-c3" class="btn btn-sm btn-alt w-100"><i class="fas fa-shopping-cart"></i> Select</a>
+                                </div>
+                                                            </div>
+
+                    </div>
+                </div>
+            </div>
+                    <div class="col-md-3 col-6 mb-3">
+                <div class="p-2 mb-3 border rounded position-relative">
+                    <!-- <div class="ribbon ribbon-top-right"><span class="bg-warning">Special Offer</span></div> -->
+                    <div class="img-area">
+                        <!-- <div class="fav">
+                            <a href="#"><i class="fas fa-heart"></i></a>
+                        </div> -->
+                        <a href="/product/xiaomi-12-lite-enroz-online"><img src="https://www.enroz.com/storage/products/2024/February/01/thumbnails/Xiaomi-12-Lite_1679400855_1706514190_1706782271.jpg" class="img-fluid" alt="Xiaomi 12 Lite | Enroz Online"></a>
+                    </div>
+                    <h3><a href="/product/xiaomi-12-lite-enroz-online">Xiaomi 12 Lite | Enroz Online</a></h3>
+                    <div class="d-flex align-items-center rate-area">
+                        <ul class="rate">
+	<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li>
+			<li><i class="far fa-star"></i></li></ul>                        <!-- <div>
+                            <a href="javascript:void(0);">2 Ratings</a>
+                        </div> -->
+                    </div>
+                    <div class="product-price">
+                        Rs.51999
+                                                                                            </div>
+
+                    <div class="row g-1 d-flex align-items-center">
+                        <!-- <div class="col-12">
+                            <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                                <option value="500">500 g</option>
+                                <option value="1">1 kg</option>
+                                <option value="2">50 kg</option>
+                                <option value="3">1 ton</option>
+                            </select>
+                        </div> -->
+                        <div class="col-5">
+                            <input type="number" class="form-control form-control-sm quantity-input" data-quantity-target="" value="1" step="1" min="1" max="10" name="quantity">
+                        </div>
+                        <div class="col-7">
+                                                            <div class="col-12">
+                                    <a href="/product/xiaomi-12-lite-enroz-online" class="btn btn-sm btn-alt w-100"><i class="fas fa-shopping-cart"></i> Select</a>
+                                </div>
+                                                            </div>
+
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+<div class="row">
+    <div class="col-12"><nav>
+        <ul class="pagination d-flex justify-content-center">
+            
+                            <li class="page-item disabled" aria-disabled="true" aria-label="&laquo; Previous">
+                    <span class="page-link" aria-hidden="true">&lsaquo;</span>
+                </li>
+            
+            
+                            
+                
+                
+                                                                                        <li class="page-item active" aria-current="page"><span class="page-link">1</span></li>
+                                                                                                <li class="page-item"><a class="page-link" href="https://www.enroz.com/product-category/smart-phones?sort=popularity&amp;page=2">2</a></li>
+                                                                                                <li class="page-item"><a class="page-link" href="https://www.enroz.com/product-category/smart-phones?sort=popularity&amp;page=3">3</a></li>
+                                                                                                <li class="page-item"><a class="page-link" href="https://www.enroz.com/product-category/smart-phones?sort=popularity&amp;page=4">4</a></li>
+                                                                        
+            
+                            <li class="page-item">
+                    <a class="page-link" href="https://www.enroz.com/product-category/smart-phones?sort=popularity&amp;page=2" rel="next" aria-label="Next &raquo;">&rsaquo;</a>
+                </li>
+                    </ul>
+    </nav>
+</div>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="show-mb">
+        <button class="rd-filter-icon" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><i class="fas fa-filter"></i></button>
+    </div>
+
+    <div class="main">
+        <div class="modal rd-modal fade" id="orderByPhone" tabindex="-1" aria-labelledby="orderByPhoneLabel" style="display: none;" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered">
+	<div class="modal-content">
+		<div class="modal-header bg-theme text-white">
+			<h5 class="modal-title" id="orderByPhoneLabel"><i class="fas fa-phone"></i>  Order by Phone</h5>
+			<button type="button" class="btn-close bg-white" data-bs-dismiss="modal" aria-label="Close"></button>
+		</div>
+		<div class="modal-body">
+			<div class="selected-product row d-flex align-items-center">
+				<div class="col-3">
+					<img class="phone_order_image" src="" class="img-fluid border p-3 rounded" style="width:100%;" alt="">
+				</div>
+				<div class="col-9 product-info-media">
+					<div class="title product-info">
+						<a href="javascript:void(0);" class="phone_order_title"></a>
+						<div class="price phone_order_price"></div>
+					</div>
+					<!-- <div class="attrib">4GB / Red</div> -->
+				</div>
+			</div>
+			<hr>
+			<form action="" id="order_by_phone_form">
+								<div class="mb-3">
+					<label for="user_name" class="form-label">Your Name <span class="text-sm text-danger">*</span></label>
+					<input type="text" class="form-control" id="user_name" name="user_name" required />
+					<span id="user-err-msg" class="text-sm text-danger"></span>					
+				</div>
+				<div class="mb-3">
+					<label for="phone" class="form-label">Phone Number <span class="text-sm text-danger">*</span></label>
+					<input type="number" class="form-control" id="phone" name="phone"required />
+					<span id="phone-err-msg" class="text-sm text-danger"></span>
+				</div>
+								<div class="mb-3">
+					<label for="note" class="form-label">Delivery Location & Note <span class="text-sm text-danger">*</span></label>
+					<textarea name="note" class="form-control" id="note" rows="6" required></textarea>
+					<span id="note-err-msg" class="text-sm text-danger"></span>
+				</div>
+				<span id="order_product_id" style="display:none"></span>
+				<input type="hidden" name="phone_sec_key" id="phone_sec_key" value="" />
+				<span id="phone_spam_alert" class="text-sm text-danger"></span>
+				<!-- <p>add google recaptcha here!!</p> -->
+			</form>
+		</div>
+		<div class="modal-footer">
+			<div class="loading" style="display:none;">
+	<span>Processing...</span> <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+</div>
+<style>
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 40px;
+  height: 26px;
+}
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  margin: 4px;
+  border: 4px solid #22408b;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #22408b transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes  lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+</style>			<button type="button" class="btn btn-alt" id="order_by_phone_now"><i class="fas fa-shopping-cart"></i> Order Now</button>
+		</div>
+	</div>
+	</div>
+</div>
+
+<script>
+$(document).ready(function(){
+  $("#order_by_phone_now").click(function(e){
+	$('.loading').css('display', 'block');
+
+	$('#user-err-msg').html('');
+	$('#phone-err-msg').html('');
+	$('#note-err-msg').html('');
+	$('#phone_spam_alert').html('');
+
+	var orderForm = $("#order_by_phone_form");
+    var formData = orderForm.serialize();
+	var product_title = $('.phone_order_title').html();
+	var product_title = product_title.replace('&', '');
+	formData+='&product_id='+$('#order_product_id').html()+'&product_title='+product_title;
+    $.ajax({
+		url:'/order-by-phone',
+		headers: {
+			'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+		},
+		type:'POST',
+		data:formData,
+		success:function(data) {
+			$('.loading').css('display', 'none');
+
+			if(data.status == 'failed') {
+				if(data.message)
+				{
+					if(data.message.user_name){
+						$('#user-err-msg').html(data.message.user_name);
+					}
+					else
+						$('#user-err-msg').html('');
+					if(data.message.phone){
+						$('#phone-err-msg').html(data.message.phone);
+					}
+					else
+						$('#phone-err-msg').html('');
+					if(data.message.note){
+						$('#note-err-msg').html(data.message.note);
+					}
+					else
+						$('#note-err-msg').html('');
+				}
+				
+				if(data.alert){
+					$('#phone_spam_alert').html(data.alert);
+				}
+				else
+					$('#phone_spam_alert').html('');
+			}
+			else {
+				$("#orderByPhone").modal('hide');
+				$('#phone_spam_alert').html('');
+				
+				displayToastMessage(data.message, data.status);
+			}
+		},
+	});
+	
+  });
+});
+</script>    </div>
+
+    <footer>
+    <section class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 mt-4">
+					<h4>Online Shopping in Nepal</h4>
+					<h2><strong>Enroz Online</strong></h2>
+
+<p><tt><strong>Address:</strong> Gairidhara, Kathmandu</tt></p>
+
+<p><tt><strong>Call Us:</strong>&nbsp;9801078499/014541359</tt></p>
+
+<p><tt><strong>Email:</strong> info@enroz.com</tt></p>
+
+<p><tt><strong>Support:</strong> pr@enroz.com</tt></p>
+
+<p><tt><strong>Hours:</strong> 10:00 - 18:00, Sun - Fri</tt></p>
+					
+					<hr>
+
+					<h4>News in your mailbox</h4>
+					<form class="form-subcriber d-flex">
+                        <input type="email" class="form-control" name="email" id="newsletter_email" placeholder="your email address" required aria-describedby="button-addon2">
+                        <button class="btn btn-theme" id="subscribe_newsletter">Subscribe</button>
+					</form>
+				</div>
+                                                                        <div class="col-md-3 col-6 mt-4">
+                        <h4 class=""> <a href="/" target="_self">  Customer Service  </a> </h4>
+                                                <ul class="list ">
+                                                        <li class=" "><a href="/page/contact-us" target="_self">Contact Us</a></li>
+                                                        <li class=" "><a href="/page/faq" target="_self">FAQ</a></li>
+                                                        <li class=" "><a href="https://www.enroz.com/page/return-and-cancellation-of-order" target="_self">Return and Cancelling an order</a></li>
+                                                        <li class=" "><a href="/page/new-user-guide" target="_self">New User Guide</a></li>
+                                                        <li class=" "><a href="/page/delivery-timelines" target="_self">Delivery Timelines</a></li>
+                                                    </ul>
+                                            </div>
+                                        <div class="col-md-3 col-6 mt-4">
+                        <h4 class=""> <a href="/" target="_self">  Our Company  </a> </h4>
+                                                <ul class="list ">
+                                                        <li class=" "><a href="/page/about-us" target="_self">About Us</a></li>
+                                                        <li class=" "><a href="#" target="_self">Careers</a></li>
+                                                        <li class=" "><a href="/page/terms-and-conditions" target="_self">Terms &amp; Conditions</a></li>
+                                                        <li class=" "><a href="/page/privacy-policy" target="_self">Privacy Policy</a></li>
+                                                    </ul>
+                                            </div>
+                                    			</div>
+		</div>
+	</section>
+	<section class="f-btm">
+		<div class="container">
+			<div class="row d-flex align-items-center justify-content-center mb-3">
+				<div class="col-md-2 col-6 border-end">
+					<a href="/"><img src="https://www.enroz.com/storage/enroz-logo_1659236282.png" class="img-fluid" alt=""></a>
+				</div>
+				<div class="col-auto">
+					<p>We proudly accept:</p>
+					<div class="payment">
+						<p><a href="https://esewa.com.np/#/home"><img alt="" src="data:image/png;base64,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" style="width: 125px; height: 65px;" /></a>&nbsp;<a href="https://khalti.com/">&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;<img alt="" src="../img/payment_partner/khalti.svg" style="width: 125px; height: 65px;" />&nbsp; &nbsp;</a><a href="https://connectips.com/">&nbsp;&nbsp;<img alt="Connect IPS" src="https://www.enroz.com/storage/photos/107/logo_connectIPS.png" style="width: 125px; height: 65px;" /></a></p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 f-cont">
+														<div class="f-top">
+						<div class="container">
+							<div class="row">
+								<div class="col-12" itemscope itemtype="https://schema.org/Organization">
+																		<h1>Buy Mobile Phones Online in Nepal</h1>
+
+<p>Thinking of buying a new mobile phone, it&#39;s the best feeling ever. For your best feeling, we offer you the best deals ever in Nepal for buying mobile phones online in Nepal. Enroz offers a wide range of mobile phones from various brands like Samsung, Apple, Xiaomi, Poco, Honor etc. Grab your best deals today and get your smart phone.</p>
+
+<hr />
+<h2>Mobile phones prices in Nepal</h2>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
+	<thead>
+		<tr>
+			<th scope="row">Samsung Mobile&nbsp;</th>
+			<th scope="col">Price in Nepal</th>
+			<th scope="col">Apple Mobile</th>
+			<th scope="col">Price in Nepal</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+			<h3><a href="https://www.enroz.com/product/galaxy-z-flip-58256gb">Galaxy Z Flip 5&nbsp;(8+256GB)</a></h3>
+			</td>
+			<td>
+			<p>Rs.139999</p>
+			</td>
+			<td>
+			<h3><a href="https://www.enroz.com/product/iphone-15-pro-max">iPhone 15 Pro Max</a></h3>
+			</td>
+			<td>
+			<p>Rs.220990</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<h3><a href="https://www.enroz.com/product/galaxy-s24-ultra12256gb">Galaxy S24 Ultra&nbsp;(12/256GB)</a></h3>
+			</td>
+			<td>
+			<p>Rs.184999</p>
+			</td>
+			<td>
+			<h3><a href="https://www.enroz.com/product/iphone-15-plus">Iphone 15 plus</a></h3>
+			</td>
+			<td>
+			<p>Rs.164499&nbsp;</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<h3><a href="https://www.enroz.com/product/galaxy-s23-fe-5g8256gb">Galaxy S23 FE 5G&nbsp;(8+256GB)</a></h3>
+			</td>
+			<td>
+			<p>Rs.85999</p>
+			</td>
+			<td>
+			<h3><a href="https://www.enroz.com/product/iphone-15">Iphone 15</a></h3>
+			</td>
+			<td>
+			<p>Rs.145499</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<h3><a href="https://www.enroz.com/product/galaxy-a54-5g8128gb">Galaxy A54 5G&nbsp;(8+128GB)</a></h3>
+			</td>
+			<td>
+			<p>Rs.56999</p>
+			</td>
+			<td>
+			<h3><a href="https://www.enroz.com/product/iphone-14">Iphone 14</a></h3>
+			</td>
+			<td>
+			<p>Rs.125500</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<h3><a href="https://www.enroz.com/product/galaxy-a34-5g8128gb">Galaxy A34 5G&nbsp;(8+128GB)</a></h3>
+			</td>
+			<td>
+			<p>Rs.43999</p>
+			</td>
+			<td>
+			<h3><a href="https://www.enroz.com/product/iphone-12">Iphone 12</a></h3>
+			</td>
+			<td>
+			<p>Rs.95500</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<hr />
+<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
+	<thead>
+		<tr>
+			<th scope="row">Xiaomi Mobile</th>
+			<th scope="col">Price in Nepal</th>
+			<th scope="col">Poco Mobile</th>
+			<th scope="col">Price in Nepal</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+			<h3><a href="https://www.enroz.com/product/xiaomi-13-pro12256gb">Xiaomi 13 Pro&nbsp;(12+256GB)</a></h3>
+			</td>
+			<td>Rs.129999</td>
+			<td>
+			<h3><a href="https://www.enroz.com/product/xiaomi-poco-x3-pro">Xiaomi POCO X3 Pro</a></h3>
+			</td>
+			<td>Rs.32999</td>
+		</tr>
+		<tr>
+			<td>
+			<h3><a href="https://www.enroz.com/product/xiaomi-13-lite">Xiaomi 13 lite</a></h3>
+			</td>
+			<td>Rs.57999</td>
+			<td>
+			<h3><a href="https://www.enroz.com/product/xiaomi-poco-m3-pro-5g-464gb">Xiaomi Poco M3 Pro 5G 4/64GB</a></h3>
+			</td>
+			<td>Rs.24499</td>
+		</tr>
+		<tr>
+			<td>
+			<h3><a href="https://www.enroz.com/product/xiaomi-12">Xiaomi 12</a></h3>
+			</td>
+			<td>Rs.87999</td>
+			<td>
+			<h3><a href="https://www.enroz.com/product/xiaomi-poco-f3-gt">Xiaomi POCO F3 GT</a></h3>
+			</td>
+			<td>
+			<p>Rs.52999</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<h3><a href="https://www.enroz.com/product/xiaomi-redmi-note-11-pro-4g-enroz-online">Xiaomi Redmi Note 11 Pro 4G&nbsp;</a></h3>
+			</td>
+			<td>Rs.35999</td>
+			<td>
+			<h3><a href="https://www.enroz.com/product/xiaomi-poco-m3-464-gb">Xiaomi POCO M3 4/64 GB</a></h3>
+			</td>
+			<td>Rs.19499</td>
+		</tr>
+		<tr>
+			<td>
+			<h3><a href="https://www.enroz.com/product/xiaomi-redmi-note-114gb64gb">Xiaomi Redmi Note 11(4GB/64GB)</a></h3>
+			</td>
+			<td>Rs.24999</td>
+			<td>
+			<h3><a href="https://www.enroz.com/product/xiaomi-poco-c31">Xiaomi Poco C31</a></h3>
+			</td>
+			<td>Rs.15499</td>
+		</tr>
+	</tbody>
+</table>
+
+<h2>Guide for buying smart phones online in Nepal</h2>
+
+<p>There are alot of things to consider while buying a new mobile phone. You should be careful throughout different indicators which makes the mobile phones worth it. You can buy from varieties of mobile phone brands in Nepal. Some brands include Apple, Samsung, Xiaomi, Poco, Honor, Huawei and many more.</p>
+
+<p>While purchasing a smart phone, you should consider their specifications such as display, processors, ram, storage, security etc. These are the factors you should look closely while purchasing a smartphone. Some mobile phones come with good displsy, some with good processors and some with good security, you should go for that one which fits your needs and meets your expectations.&nbsp;</p>
+
+<p>Buying a mobile phone online in Nepal comes with many advantages. You can compare the products with eath other, you can have a clear view of mobile phone prices and specifications. Buying mobile phone online in Nepal may also be very beneficial to you sometimes as there are dozens of offers and deals running throughout the year. At Enroz Online, you can get some best discounts and offers while buying your smart phone.&nbsp;</p>
+																		<div class="row">
+																			</div>
+								</div>
+							</div>
+						</div>
+					</div>
+									</div>
+			</div>
+			<div class="row copyright">
+				<div class="col-12">
+					<p>Copyright &copy; 2017 - 2025 Enroz Online Shopping Nepal. All rights reserved. Site Developed By : <a style="color:black;" href="https://www.techie.com.np">Techie IT</a></p>
+				</div>
+			</div>
+		</div>
+	</section>
+</footer>
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5961e2ad6edc1c10b034515d/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
+<script>
+// Enter key pressing is not working in Header search,
+// alternatively fired by javascript
+$(document).ready(function(){
+    var searchkey = document.getElementById('search');
+    if(searchkey)
+    {
+        searchkey.addEventListener('keypress',function(event){
+            if(event.keyCode == 13) {
+                if(searchkey.val() != '')
+                $('#search-form').submit();
+            }
+        });
+    }
+});
+
+$(document).ready(function(){
+  $("#subscribe_newsletter").click(function(e){
+	$('.newsletter_form').html('Submitting...');
+    if($('#newsletter_email').val() == '')
+    {
+        $('.newsletter_form').html('Subscribe');
+        $('#email-err-msg').html('Enter email address to subscribe.');
+        return false;
+    }
+    else
+    {
+        // regx to validate email
+        var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+        if(!$('#newsletter_email').val().match(mailformat))
+        {
+            $('.newsletter_form').html('Subscribe');
+            $('#email-err-msg').html('Enter valid email address to subscribe.');
+            return false;
+        }
+    }
+
+	$('#email-err-msg').html('');
+	$('#email_spam_alert').html('');
+
+	var formData = 'email='+$('#newsletter_email').val()+'&newsletter_sec_key='+$('#newsletter_sec_key').val();
+    $.ajax({
+		url:'/subscribe-newsletter',
+		headers: {
+			'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+		},
+		type:'POST',
+		data:formData,
+		success:function(data) {
+			$('.newsletter_form').html('Subscribe');
+
+			if(data.status == 'failed') {
+				if(data.message)
+				{
+					if(data.message.email){
+						$('#email-err-msg').html(data.message.email);
+					}
+					else
+						$('#email-err-msg').html('');
+				}
+				
+				if(data.alert){
+					$('#email_spam_alert').html(data.alert);
+				}
+				else
+					$('#email_spam_alert').html('');
+			}
+			else {
+				$('#email_spam_alert').html('');	
+                $('#newsletter_email').val('');			
+				displayToastMessage(data.message, data.status);
+			}
+		},
+	});
+	
+  });
+});
+</script>
+
+    <a href="javascript:void(0)" class="back-to-top" id="back-top"></a> <!-- /back to top -->
+
+    <script>
+
+    function insertParam(key, value)
+    {
+        console.log(key)
+        key = encodeURIComponent(key); value = encodeURIComponent(value);
+
+        var kvp = document.location.search.substr(1).split('&');
+        if (kvp == '') {
+            document.location.search = '?' + key + '=' + value;
+        }
+        else {
+
+            var i = kvp.length; var x; while (i--) {
+                x = kvp[i].split('=');
+
+                if (x[0] == key) {
+                    x[1] = value;
+                    kvp[i] = x.join('=');
+                    break;
+                }
+            }
+
+            if (i < 0) { kvp[kvp.length] = [key, value].join('='); }
+
+            //this will reload the page, it's likely better to store this until finished
+            document.location.search = kvp.join('&');
+        }
+    }
+
+    $(document).ready(function () {
+
+        $('.brand-item:checkbox:checked').each(function (index) {
+            if(index == 0)
+                var addClass = '';
+            else
+                var addClass = 'ms-1';
+            $(".selected-clear").append('<li class="'+addClass+'"><i class="fas fa-times remove-brand" data-id="'+$(this).val()+'"></i> '+$(this).siblings('span').text()+'</li>');
+        });
+
+        // filterProduct = function() {
+        //     var sortProduct = '';
+        //     if($.urlParam('sort') && ($.urlParam('sort') != false && $.urlParam('sort') != '0'))
+        //         sortProduct = $.urlParam('sort');
+        //     else
+        //         sortProduct = '';
+
+        //     var maxPrice = $('.max_price').first().text().replace('Rs.', '');
+        //     var minPrice = $('.min_price').first().text().replace('Rs.', '');
+
+        //     var brands = [];
+        //     $('.brand-item:checkbox:checked').each(function (index) {
+        //         brands.push($(this).val());
+        //     });
+
+        //     var variableAttr = [];
+        //     var nonVariableAttr = [];
+        //     $('.prod_attr:radio:checked').each(function (index) {
+        //         if($(this).attr('data-variable') == '1')
+        //             variableAttr.push($(this).attr('data-id'));
+        //         else
+        //             nonVariableAttr.push($(this).attr('data-id'));
+        //     });
+        //     console.log('Sort: '+sortProduct);
+        //     console.log('Max: '+maxPrice+', Min: '+minPrice);
+        //     console.log('Brand: '+brands);
+        //     console.log('Variable: '+variableAttr);
+        //     console.log('Non-Variable: '+nonVariableAttr);
+        // }
+    });
+
+    $('#search-brand').on("input", function(){
+
+        var input, filter, group, label, span, i, txtValue;
+        input = document.getElementById("search-brand");
+        filter = input.value.toUpperCase();
+        group = document.getElementById("brand-list-group");
+        label = group.getElementsByTagName("label");
+
+        // Loop through all table rows, and hide those who don't match the search query
+        for (i = 0; i < label.length; i++) {
+            span = label[i].getElementsByTagName("span")[0];
+            if (span) {
+                txtValue = span.textContent || span.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    label[i].style.display = "";
+                } else {
+                    label[i].style.display = "none";
+                }
+            }
+        }
+    });
+    $('.brand-item').on('click', function() {
+        console.log('Brand here')
+        $('.selected-clear').text('');
+        $('.brand-item:checkbox:checked').each(function (index) {
+            if(index == 0)
+                var addClass = '';
+            else
+                var addClass = 'ms-1';
+            $(".selected-clear").append('<li class="'+addClass+'"><i class="fas fa-times remove-brand" data-id="'+$(this).val()+'"></i> '+$(this).siblings('span').text()+'</li>');
+        });
+
+        // filterProduct();
+
+        var brands = [];
+        $('.brand-item:checkbox:checked').each(function (index) {
+            brands.push($(this).val());
+        });
+        insertParam('brands', brands);
+    });
+
+    $('.prod_attr').on('click', function() {
+        if(!$(this).attr('class').includes('checked'))
+        {
+            $(this).addClass('checked');
+        }
+        else
+        {
+            $(this).removeClass('checked');
+            $(this).prop('checked', false);
+        }
+
+        var nonVariableAttr = [];
+        $('.prod_attr:radio:checked').each(function (index) {
+            nonVariableAttr.push($(this).attr('data-id'));
+        });
+
+        insertParam('attr', nonVariableAttr);
+    });
+
+    $('.prod_attr_var').on('click', function() {
+        // filterProduct();
+
+        if(!$(this).attr('class').includes('checked'))
+        {
+            $(this).addClass('checked');
+        }
+        else
+        {
+            $(this).removeClass('checked');
+            $(this).prop('checked', false);
+        }
+
+        var variableAttr = [];
+        $('.prod_attr_var:radio:checked').each(function (index) {
+            variableAttr.push($(this).attr('data-id'));
+        });
+
+        insertParam('variable_attr', variableAttr);
+    });
+
+    $("#slider-range,#price-range-submit").click(function () {
+        var maxPrice = $('.max_price').first().text().replace('Rs.', '');
+        var minPrice = $('.min_price').first().text().replace('Rs.', '');
+        insertParam('price_range', minPrice+'-'+maxPrice);
+    });
+
+    $('body').on('click', '.remove-brand', function() {
+        $('#brand-list-'+$(this).attr('data-id')).prop("checked", false);
+        $(this).parent().remove();
+
+        // filterProduct();
+        var brands = [];
+        $('.brand-item:checkbox:checked').each(function (index) {
+            brands.push($(this).val());
+        });
+        insertParam('brands', brands);
+    });
+
+    $('.clear-all').on('click', function() {
+        $('.selected-clear').text('');
+        $('.brand-item').prop("checked", false);
+
+        $('#min_price').val($('#min_price').attr("data-min-price"));
+        $('#max_price').val($('#max_price').attr("data-max-price"));
+
+        $('.prod_attr').prop('checked', false);
+        $('.prod_attr_var').prop('checked', false);
+
+        // filterProduct();
+
+        if($.urlParam('sort') && ($.urlParam('sort') != false && $.urlParam('sort') != '0'))
+            sortProduct = $.urlParam('sort');
+        else
+            sortProduct = 'latest';
+
+        document.location.search = '?=sort='+sortProduct
+    });
+</script>
+
+<script>
+    let timers = document.getElementsByClassName('timer');
+    for(let i = 0; i < timers.length; ++i){
+        let timer = timers[i];
+        let timerEndDate = timer.getAttribute('data-end-date');
+        let countDownDate = new Date(timerEndDate.replace(/-/g, '/')).getTime();
+        let x = setInterval(function() {
+
+            // Get today's date and time
+            let now = new Date().getTime();
+
+            // Find the distance between now and the count down date
+            let distance = countDownDate - now;
+
+            // Time calculations for days, hours, minutes and seconds
+            let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            let timerList = timer.getElementsByTagName('ul')[0]
+            let daysEl = timerList.getElementsByClassName('days')[0]
+            let hoursEl = timerList.getElementsByClassName('hours')[0]
+            let minutesEl = timerList.getElementsByClassName('minutes')[0]
+            let secondsEl = timerList.getElementsByClassName('seconds')[0]
+
+            daysEl.innerHTML = "" + days
+            hoursEl.innerHTML = "" + hours
+            minutesEl.innerHTML = "" + minutes
+            secondsEl.innerHTML = "" + seconds
+        }, 1000);
+    }
+
+
+	// Btn Increase OnClick
+	(function () {
+	"use strict";
+	var jQueryPlugin = (window.jQueryPlugin = function (ident, func) {
+		return function (arg) {
+		if (this.length > 1) {
+			this.each(function () {
+			var $this = $(this);
+
+			if (!$this.data(ident)) {
+				$this.data(ident, func($this, arg));
+			}
+			});
+
+			return this;
+		} else if (this.length === 1) {
+			if (!this.data(ident)) {
+			this.data(ident, func(this, arg));
+			}
+
+			return this.data(ident);
+		}
+		};
+	});
+	})();
+
+	(function () {
+	"use strict";
+	function Guantity($root) {
+		const element = $root;
+		const quantity = $root.first("data-quantity");
+		const quantity_target = $root.find("[data-quantity-target]");
+		const quantity_minus = $root.find("[data-quantity-minus]");
+		const quantity_plus = $root.find("[data-quantity-plus]");
+		$(quantity_minus).click(function () {
+      if(parseInt(quantity_target.val()) >= 2)
+		    quantity_target.val(parseInt(quantity_target.val()) - 1);
+		});
+		$(quantity_plus).click(function () {
+      if(parseInt(quantity_target.val()) == quantity_target.attr('max'))
+      {
+        var toastElList = [].slice.call(document.querySelectorAll('.toast'))
+				var toastList = toastElList.map(function(toastEl) {
+					// Creates an array of toasts (it only initializes them)
+					return new bootstrap.Toast(toastEl, { animation: true, autohide: true, delay: 3000 }) // No need for options; use the default options
+				});
+				$('#toast-div').css('display', 'block');
+				$("#toastDiv").removeClass("bg-danger");
+				$("#toastDiv").removeClass("bg-success");
+
+				$("#toastDiv").addClass("bg-danger");
+				$('#toastMessage').html('Sorry! Maximum '+quantity_target.attr('max')+' quantity of this product can be purchased.');
+				toastList.forEach(toast => toast.show()); // This show them
+
+				setTimeout(function(){ $('#toast-div').css('display', 'none'); }, 3000);
+      }
+      else
+		    quantity_target.val(parseInt(quantity_target.val())+1);
+		});
+	}
+	$.fn.Guantity = jQueryPlugin("Guantity", Guantity);
+	$("[data-quantity]").Guantity();
+	})();
+
+
+	// Countdown
+	(function () {
+	const second = 1000,
+			minute = second * 60,
+			hour = minute * 60,
+			day = hour * 24;
+
+	let enddate = "April 30, 2021 00:00:00",
+		countDown = new Date(enddate).getTime(),
+		x = setInterval(function() {
+
+			let now = new Date().getTime(),
+				distance = countDown - now;
+
+			// document.getElementById("days").innerText = Math.floor(distance / (day)),
+			// document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
+			// document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+			// document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+
+			//do something later when date is reached
+			if (distance < 0) {
+			let headline = document.getElementById("headline"),
+				countdown = document.getElementById("countdown"),
+				content = document.getElementById("content");
+
+			// headline.innerText = "Deals Timeout";
+			// countdown.style.display = "none";
+			// content.style.display = "block";
+
+			clearInterval(x);
+			}
+			//seconds
+		}, 0)
+	}());
+
+	//Back to Top
+	var btn = $('#back-top');
+
+	$(window).scroll(function() {
+	if ($(window).scrollTop() > 300) {
+		btn.addClass('show');
+	} else {
+		btn.removeClass('show');
+	}
+	});
+	btn.on('click', function(e) {
+	e.preventDefault();
+	$('html, body').animate({scrollTop:0}, '300');
+	});
+</script>
+
+<script>
+	function autocomplete(inp, arr)
+  {
+    /*the autocomplete function takes two arguments,
+    the text field element and an array of possible autocompleted values:*/
+    var currentFocus;
+    /*execute a function when someone writes in the text field:*/
+    inp.addEventListener("input", function(e) {
+        var a, b, i, val = this.value;
+        /*close any already open lists of autocompleted values*/
+        closeAllLists();
+        if (!val) { return false;}
+        currentFocus = -1;
+        /*create a DIV element that will contain the items (values):*/
+        a = document.createElement("DIV");
+        a.setAttribute("id", this.id + "autocomplete-list");
+        a.setAttribute("class", "autocomplete-items");
+        /*append the DIV element as a child of the autocomplete container:*/
+        this.parentNode.appendChild(a);
+
+        var arr = [];
+        var formData = new FormData();
+	      formData.append('keyword', val);
+        $.ajax({
+          url:'/product/autocomplete',
+          processData: false,
+          contentType: false,
+          headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+          },
+          type:'POST',
+          data:formData,
+          success:function(response) {
+            if(response.status == 'success') {
+              arr = response.message;
+
+              for (i = 0; i < arr.length; i++) {
+                // console.log(arr[i].title);
+                /*check if the item starts with the same letters as the text field value:*/
+                if (arr[i].title.toUpperCase().includes(val.toUpperCase())) {
+                  /*create a DIV element for each matching element:*/
+                  b = document.createElement("DIV");
+                  /*make the matching letters bold:*/
+                  var n = arr[i].title.toUpperCase().indexOf(val.toUpperCase());
+                  if(n == 0)
+                  {
+                    b.innerHTML = "<strong>" + arr[i].title.substr(0, val.length) + "</strong>";
+                    b.innerHTML += arr[i].title.substr(val.length);
+                  }
+                  else
+                  {
+                    b.innerHTML = arr[i].title.substr(0, n);
+                    b.innerHTML += "<strong>" + arr[i].title.substr(n, val.length) + "</strong>";
+                    b.innerHTML += arr[i].title.substr(n+(val.length), arr[i].title.length);
+                  }
+                  /*insert a input field that will hold the current array item's value:*/
+                  b.innerHTML += "<input type='hidden' value='" + arr[i].slug + "'>";
+                  /*execute a function when someone clicks on the item value (DIV element):*/
+                  b.addEventListener("click", function(e) {
+                      /*insert the value for the autocomplete text field:*/
+                      inp.value = this.getElementsByTagName("input")[0].value;
+                      /*close the list of autocompleted values,
+                      (or any other open lists of autocompleted values:*/
+                      window.location = '/product/'+this.getElementsByTagName("input")[0].value;
+                      closeAllLists();
+                  });
+                  a.appendChild(b);
+                }
+              }
+            }
+          },
+        });
+
+    });
+    /*execute a function presses a key on the keyboard:*/
+    inp.addEventListener("keydown", function(e) {
+        var x = document.getElementById(this.id + "autocomplete-list");
+        if (x) x = x.getElementsByTagName("div");
+        if (e.keyCode == 40) {
+          /*If the arrow DOWN key is pressed,
+          increase the currentFocus variable:*/
+          currentFocus++;
+          /*and and make the current item more visible:*/
+          addActive(x);
+        } else if (e.keyCode == 38) { //up
+          /*If the arrow UP key is pressed,
+          decrease the currentFocus variable:*/
+          currentFocus--;
+          /*and and make the current item more visible:*/
+          addActive(x);
+        } else if (e.keyCode == 13) {
+          /*If the ENTER key is pressed, prevent the form from being submitted,*/
+          e.preventDefault();
+          if (currentFocus > -1) {
+            /*and simulate a click on the "active" item:*/
+            if (x) x[currentFocus].click();
+          }
+        }
+    });
+    function addActive(x) {
+      /*a function to classify an item as "active":*/
+      if (!x) return false;
+      /*start by removing the "active" class on all items:*/
+      removeActive(x);
+      if (currentFocus >= x.length) currentFocus = 0;
+      if (currentFocus < 0) currentFocus = (x.length - 1);
+      /*add class "autocomplete-active":*/
+      x[currentFocus].classList.add("autocomplete-active");
+    }
+    function removeActive(x) {
+      /*a function to remove the "active" class from all autocomplete items:*/
+      for (var i = 0; i < x.length; i++) {
+        x[i].classList.remove("autocomplete-active");
+      }
+    }
+    function closeAllLists(elmnt) {
+        /*close all autocomplete lists in the document,
+        except the one passed as an argument:*/
+        var x = document.getElementsByClassName("autocomplete-items");
+        for (var i = 0; i < x.length; i++) {
+          if (elmnt != x[i] && elmnt != inp) {
+          x[i].parentNode.removeChild(x[i]);
+        }
+      }
+    }
+
+    document.getElementById('search').onkeydown = function (e){
+        if (e.keyCode == 13){
+            document.getElementById('search-form').submit();
+        }
+    }
+
+      document.getElementById('search-m').onkeydown = function (e){
+          if (e.keyCode == 13){
+              document.getElementById('search-form-m').submit();
+          }
+      }
+
+    /*execute a function when someone clicks in the document:*/
+    document.addEventListener("click", function (e) {
+        closeAllLists(e.target);
+    });
+  }
+</script>
+<script>
+	autocomplete(document.getElementById("search"));
+  autocomplete(document.getElementById("search-m"));
+</script>
+
+<script>
+// for order by phone
+$(document).ready(function(){
+  $(".order_by_phone").click(function(e){
+    var info_element = $(this).parent().find('.product_info');
+    var phone_order_id = info_element.data('id');
+    var phone_order_image = info_element.data('image');
+    var phone_order_title = info_element.data('title');
+    var phone_order_rprice = info_element.data('rprice');
+    var phone_order_sprice = info_element.data('sprice');
+
+    $('#user-err-msg').html('');
+    $('#phone-err-msg').html('');
+    $('#note-err-msg').html('');
+    $('#phone_spam_alert').html('');
+
+    $('#phone_sec_key').val('');
+    $('#order_by_phone_form').trigger("reset");
+
+    $('#order_product_id').html(phone_order_id);
+    $('.order_product_id').html(phone_order_id);
+    $('.phone_order_image').attr('src', phone_order_image);
+    $('.phone_order_image').attr('alt', phone_order_title);
+    $('.phone_order_title').html(phone_order_title);
+
+    var price = 'Rs. '+phone_order_rprice;
+    if(phone_order_sprice != '' && phone_order_sprice != '0')
+    {
+      var discount_percent = ((phone_order_rprice - phone_order_sprice) / phone_order_rprice) * 100;
+      discount_percent = Math.round(discount_percent);
+      var price = 'Rs. '+phone_order_sprice+' <span class="old-price">Rs. '+phone_order_rprice+'</span> <span class="badge rounded-pill bg-success save-percentage">You have saved -'+discount_percent+'%</span>';
+    }
+    $('.phone_order_price').html(price);
+  });
+});
+
+// for review and rating
+$(document).ready(function()
+{
+    $('.write_review').on('click', function(){
+        $('#review_spam_alert').html('');
+        $('#review_sec_key').val('');
+        $('#review_product_id').val($(this).data('value'));
+        $('#review_vendor_id').val($(this).data('value'));
+    });
+
+		/* 1. Visualizing things on Hover - See next part for action on click */
+		$('#stars li').on('mouseover', function(){
+			var onStar = parseInt($(this).data('value'), 10); // The star currently mouse on
+
+			// Now highlight all the stars that's not after the current hovered star
+			$(this).parent().children('li.star').each(function(e){
+			if (e < onStar) {
+				$(this).addClass('hover');
+			}
+			else {
+				$(this).removeClass('hover');
+			}
+			});
+
+		}).on('mouseout', function(){
+			$(this).parent().children('li.star').each(function(e){
+			$(this).removeClass('hover');
+			});
+		});
+
+
+		/* 2. Action to perform on click */
+		$('#stars li').on('click', function(){
+        var onStar = parseInt($(this).data('value'), 10); // The star currently selected
+        var stars = $(this).parent().children('li.star');
+        $('#rating').val(onStar);
+        for (i = 0; i < stars.length; i++) {
+          $(stars[i]).removeClass('selected');
+        }
+
+        for (i = 0; i < onStar; i++) {
+          $(stars[i]).addClass('selected');
+        }
+    });
+});
+
+
+	function responseMessage(msg) {
+		$('.success-box').fadeIn(200);
+		$('.success-box div.text-message').html("<span>" + msg + "</span>");
+	}
+
+  $(document).ready(function(){
+    $("img").addClass("img-fluid");
+    $("#big-img").removeClass("img-fluid");
+  });
+
+  function displayToastMessage(message, status)
+  {
+    var toastElList = [].slice.call(document.querySelectorAll('.toast'))
+    var toastList = toastElList.map(function(toastEl) {
+      // Creates an array of toasts (it only initializes them)
+      return new bootstrap.Toast(toastEl, { animation: true, autohide: true, delay: 2000 }) // No need for options; use the default options
+    });
+    $('#toast-div').css('display', 'block');
+    $("#toastDiv").removeClass("bg-danger");
+    $("#toastDiv").removeClass("bg-success");
+    if(status == 'success')
+      $("#toastDiv").addClass("bg-success");
+    else
+      $("#toastDiv").addClass("bg-danger");
+    $('#toastMessage').html(message);
+    toastList.forEach(toast => toast.show()); // This show
+    setTimeout(function(){ $('#toast-div').css('display', 'none'); }, 3000);
+  }
+
+$('.bundle-add-to-cart').on('click', function (){
+    let ele = $(this);
+    let slug = ele.attr('data-slug');
+    ele.addClass('addingToCart');
+
+    $.ajax({
+        url: 'https://www.enroz.com/bundles/add-to-cart' + '/' + slug,
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        },
+        type:'POST',
+        success:function(res) {
+
+            ele.removeClass('addingToCart');
+
+            displayToastMessage(res.message, res.status);
+
+            if(res.total)
+            {
+                if(res.total > 0)
+                    $('#view-cart').show();
+                else
+                    $('#view-cart').hide();
+                $('.cart-count span').html(res.total);
+            }
+            if(res.max)
+                ele.parent().parent().find('.quantity-input').attr('max', res.max);
+        },
+    })
+});
+
+  $('.add-to-cart-simple').on('click', function(){
+    var ele = $(this);
+    var info_element = ele.parent().find('.product_info');
+    var prouct_id = info_element.data('id');
+    var product_image = info_element.data('image');
+    var product_title = info_element.data('title');
+    var product_rprice = info_element.data('rprice');
+    var product_sprice = info_element.data('sprice');
+
+    var price = 0;
+    if(product_sprice != '' && product_sprice != '0')
+      price = product_sprice;
+    else
+      price = product_rprice;
+
+    var attributes = [
+      { 'product_id': prouct_id },
+      { 'photo': product_image }
+    ];
+    var combination = [];
+
+    attributes.push({'variation': ""});
+
+    ele.addClass('addingToCart');
+    $.ajax({
+      url: 'https://www.enroz.com/add-to-cart',
+      headers: {
+        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+      },
+      type:'POST',
+      data:{'id': prouct_id, 'name': product_title, 'price': price, 'quantity': ele.parent().parent().find('.quantity-input').val(), 'attributes': attributes, 'combination': combination },
+      success:function(res) {
+
+        ele.removeClass('addingToCart');
+
+        displayToastMessage(res.message, res.status);
+
+        if(res.total)
+        {
+          if(res.total > 0)
+            $('#view-cart').show();
+          else
+            $('#view-cart').hide();
+          $('.cart-count span').html(res.total);
+        }
+        if(res.max)
+          ele.parent().parent().find('.quantity-input').attr('max', res.max);
+      },
+    });
+});
+
+
+
+$('.wishlist-btn').click(function (){
+    let item = $(this);
+    let product_id = item.attr('data-product-id');
+    let formVal = {product_id: product_id};
+    $.ajax({
+        url: 'https://www.enroz.com/user/add-remove-favourite',
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        },
+        type: 'POST',
+        data: formVal,
+        success: function (res){
+            console.log(res)
+            displayToastMessage(res.message, res.status);
+        }
+    });
+});
+
+
+
+</script>
+
+
+</body>
+</html>
